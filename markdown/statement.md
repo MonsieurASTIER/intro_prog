@@ -1,7 +1,7 @@
 # Hello world
 
 
-![Minion](img/stormtroopocat.png)
+![Minion](../img/stormtroopocat.png)
 
 
 Bienvenu dans le merveilleux monde de la programmation
