@@ -7,10 +7,6 @@
 Bienvenu dans le merveilleux monde de la programmation
 
 
-```python runnable
-print('Hello World!')
-```
-
 
 
 ## présentation
