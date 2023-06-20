@@ -1,10 +1,16 @@
-# cette fois c est la bonne!
+# Hello world
 
-This Python template lets you get started quickly with a simple one-page playground.
+
+![Minion](img/stormtroopocat.png)
+
+
+Bienvenu dans le merveilleux monde de la programmation
+
 
 ```python runnable
 print('Hello World!')
 ```
+
 
 # Advanced usage
 
