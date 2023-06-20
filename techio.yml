@@ -1,4 +1,6 @@
-title: Mon test avec github
+title: Introduction à la programmation
 plan:
-- title: Python test github
-  statement: statement.md
+- title: Hello world
+  statement: markdown/statement.md
+- title: partie 1
+  statement: markdown/part1.md
