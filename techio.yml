@@ -4,3 +4,7 @@ plan:
   statement: markdown/statement.md
 - title: partie 1
   statement: markdown/part1.md
+projects:
+  example:
+    root: /code/exemple
+    runner: python:3
