@@ -6,5 +6,5 @@ plan:
   statement: markdown/part1.md
 projects:
   example:
-    root: /code/exemple
+    root: /code
     runner: python:3
