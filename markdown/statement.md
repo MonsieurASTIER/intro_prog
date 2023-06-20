@@ -27,7 +27,20 @@ Des QCM seront à réaliser en fin de partie. **Ils ne sont pas noter** ,ils per
 # Comment marche ce site web?
 
 
-Le principe est simple : sur chaque page se trouvent une leçon accompagner d'un ou plusieurs exercices à réaliser.
+### Le principe est simple : sur chaque page se trouvent une leçon accompagner d'un ou plusieurs exercices à réaliser ou QCM.
+
+?[Ceci est un QCM ?]
+-[] Non pas du tout, c'est un site web
+-[x] Oui c'est un QCM dans un site web!!!
+
+?[Attention il peut s'agit d'un qcm à réponse multiple]
+- [] C'est vachement plus dur à réponse multiple
+- [x] ça change rien pour moi,je suis trop fort
+- [] c'est de la triche l'informatique est binaire normalement
+- [x] Il en faut plus pour me démotiver
+
+Il est possible de réaliser autant de fois que nécessaires un QCM
+**attention de ne pas tomber dans la faciliter de cocher au hasard et de recommencer,ceci ne fera pas avancer le [schmilblik](https://fr.wikipedia.org/wiki/Schmilblick)**
 
 Ensuite on trouve un cadre, comme ci-dessous, dans lequel il faut taper son code. Une partie du code est déjà prérempli et il ne vaut mieux pas toucher l'en-tête.
 
