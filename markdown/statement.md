@@ -7,11 +7,6 @@
 Bienvenu dans le merveilleux monde de la programmation
 
 
-```python runnable
-print('Hello World!')
-```
-
-
 
 ## présentation
 Dans ce cours nous allons apprendre les base de la programmation informatique.
@@ -32,7 +27,7 @@ Des QCM seront à réaliser en fin de partie. **Ils ne sont pas noter** ,ils per
 # Comment marche ce site web?
 
 
-Le principe est simple : sur chaque page se trouvent une leçon accompagner d'un ou plusieurs exercices à faire avec un énoncé.
+Le principe est simple : sur chaque page se trouvent une leçon accompagner d'un ou plusieurs exercices à réaliser.
 
 Ensuite on trouve un cadre, comme ci-dessous, dans lequel il faut taper son code. Une partie du code est déjà prérempli et il ne vaut mieux pas toucher l'en-tête.
 
@@ -41,4 +36,7 @@ Pour résoudre l'exercice, il faut créer un programme qui passera les tests lor
 Pour vous entrainer, essayez de rajouter `print("Hello World")` (Attention aux majuscules !) dans le programme suivant puis testez-le en appuyant sur Run.
 Il faut bien faire attention à décaler ce que l'on écrit au même niveau que les commentaires (qui commencent par #).
 
-@[Exemple ]({"stubs": ["Variables_et_fonctions/Prise_en_main_Exo_1.py"], "command": "python3 Variables_et_fonctions/Hello_world_test.py"})
+
+
+Les leçons peuvent également être accompagner d'exercices type QCM.
+Ceux-ci permettent de voir si vous avez bien compris la leçon. Il est contre-productif de faire de l'essaie-erreur pour trouver la bonne solutions.
