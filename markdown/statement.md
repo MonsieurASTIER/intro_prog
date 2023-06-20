@@ -27,29 +27,28 @@ Des QCM seront à réaliser en fin de partie. **Ils ne sont pas noter** ,ils per
 # Comment marche ce site web?
 
 
-### Le principe est simple : sur chaque page se trouvent une leçon accompagner d'un ou plusieurs exercices à réaliser ou QCM.
+Le principe est simple : sur chaque page se trouvent une leçon accompagner d'un ou plusieurs exercices à réaliser ou QCM.
 
-?[Ceci est un QCM ?]
+?[Ceci est un QCM à réponse unique:]
 -[] Non pas du tout, c'est un site web
 -[x] Oui c'est un QCM dans un site web!!!
 
-?[Attention il peut s'agit d'un qcm à réponse multiple]
+Il existe une différence entre ces deux QCM
+
+?[Ceci est un QCM à réponse multiple:]
 - [] C'est vachement plus dur à réponse multiple
 - [x] ça change rien pour moi,je suis trop fort
 - [] c'est de la triche l'informatique est binaire normalement
 - [x] Il en faut plus pour me démotiver
 
-Il est possible de réaliser autant de fois que nécessaires un QCM
+Il est possible de réaliser autant de fois que nécessaires un QCM.
 **attention de ne pas tomber dans la faciliter de cocher au hasard et de recommencer,ceci ne fera pas avancer le [schmilblik](https://fr.wikipedia.org/wiki/Schmilblick)**
 
-Ensuite on trouve un cadre, comme ci-dessous, dans lequel il faut taper son code. Une partie du code est déjà prérempli et il ne vaut mieux pas toucher l'en-tête.
+## ecrire du code sur cette page web
+
+On peut trouver un cadre, comme ci-dessous, dans lequel il faut taper son code. Une partie du code peut être déjà prérempli et **il ne vaut mieux pas toucher l'en-tête**.
 
 Pour résoudre l'exercice, il faut créer un programme qui passera les tests lorsqu'on appuie sur Run.
 
 Pour vous entrainer, essayez de rajouter `print("Hello World")` (Attention aux majuscules !) dans le programme suivant puis testez-le en appuyant sur Run.
 Il faut bien faire attention à décaler ce que l'on écrit au même niveau que les commentaires (qui commencent par #).
-
-
-
-Les leçons peuvent également être accompagner d'exercices type QCM.
-Ceux-ci permettent de voir si vous avez bien compris la leçon. Il est contre-productif de faire de l'essaie-erreur pour trouver la bonne solutions.
