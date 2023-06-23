@@ -1,3 +1,5 @@
+import io
+import sys
 
 sys.stdout = io.StringIO()
 for rep in sys.stdout.getvalue().split("\n"):
