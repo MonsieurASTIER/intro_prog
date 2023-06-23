@@ -52,3 +52,5 @@ Pour résoudre l'exercice, il faut créer un programme qui passera les tests lor
 
 Pour vous entrainer, essayez de rajouter `print("Hello World")` (Attention aux majuscules !) dans le programme suivant puis testez-le en appuyant sur Run.
 Il faut bien faire attention à décaler ce que l'on écrit au même niveau que les commentaires (qui commencent par #).
+```python runnable
+```
