@@ -1,13 +1,15 @@
 import io
 import sys
+from exemple import function_test
+
 
 print("start message")
-sys.stdout = io.StringIO()
-rep = sys.stdout.getvalue().split("\n")
-print(str(rep))
-for el in rep:
-    print(str(el))
-    print("TECHIO> success false")
+retour = function_test()
+if retour == 10:
+    print("TECHIO> success true")
     print("TECHIO> Bien jouer!!")
+else:
+    print("TECHIO> success false")
+    print("TECHIO> rater")
 
 print("all is okay")
