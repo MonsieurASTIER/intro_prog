@@ -2,14 +2,16 @@ import io
 import sys
 from exemple import function_test
 
+def test_Verif():
+    try:
+        retour = function_test()
+        assert retour == 10," assert verifier"
+        print("TECHIO> success true")
+        print("TECHIO> message bien jouer!!")
 
-print("start message")
-retour = function_test()
-if retour == 10:
-    print("TECHIO> success true")
-    print("TECHIO> Bien jouer!!")
-else:
-    print("TECHIO> success false")
-    print("TECHIO> rater")
+    except AssertionError as e:
+        print("TECHIO> success false")
+        print("TECHIO> message recommence avec 10")
 
-print("all is okay")
+if __name__ == "__main__":
+    test_Verif()
