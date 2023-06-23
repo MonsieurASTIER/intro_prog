@@ -7,4 +7,6 @@ plan:
 projects:
   example:
     root: /code
-    runner: python:3
+    runner:
+      name: python
+      version: '3.8'
