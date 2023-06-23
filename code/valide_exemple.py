@@ -11,6 +11,7 @@ def test():
         print("TECHIO> Bien jouer!!")
     except AssertionError as e:
         print("TECHIO> success false")
+        print("TECHIO> Rater dommage")
 
 
 if __name__ == "__main__": test()
