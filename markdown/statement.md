@@ -46,15 +46,15 @@ Il est possible de réaliser autant de fois que nécessaires un QCM.
 
 ## ecrire du code sur cette page web
 
-On peut trouver un cadre, comme ci-dessous, dans lequel il faut taper son code. Une partie du code peut être déjà prérempli et **il ne vaut mieux pas toucher l'en-tête**.
+On peut trouver un cadre, comme ci-dessous, dans lequel il faut taper son code. Une partie du code peut être déjà prérempli **il ne faut pas modifier l'en-tête**.
 
-Pour résoudre l'exercice, il faut créer un programme qui passera les tests lorsqu'on appuie sur Run.
+Pour résoudre l'exercice, il faudra écrire un programme qui passera les tests lorsqu'on appuie sur Run.
 
-Pour vous entrainer, essayez de rajouter `print("Hello World")` (Attention aux majuscules !) dans le programme suivant puis testez-le en appuyant sur Run.
-Il faut bien faire attention à décaler ce que l'on écrit au même niveau que les commentaires (qui commencent par #).
+Pour vous entrainner, essayez d'écrire `print("Hello World")`  dans le programme suivant puis testez-le en appuyant sur Run.
+
 
 
 Appuyez sur le bouton Run pour voir l'effet du code ci-dessous :
 ```python runnable
-print("hello world")
+#Ecrire votre code ici
 ```
