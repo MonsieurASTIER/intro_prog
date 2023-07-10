@@ -6,7 +6,7 @@ Peut importe le langage de programmation utiliser, il existe un point commun ent
 Vous quelqu'un de tres ordonner. Vous venez d'aménager dans votre nouvelle maison,et souhaitez avoir une chambre bien ranger (le rêve de tout parent ;)
 Pour cela vous avez acheter une superbe étagere à case!! Dans chaque case vous allez pouvoir y ranger des affaires.
 
-![etagere](../img/etagere.jpeg)
+![etagere](../../img/etagere.jpeg)
 <div class="alert alert-block alert-info">
   C'est normal que toutes les cases ne soit pas de la même tailles?
   Oui, car toutes les affaires ne sont pas de la même taille. Mais on y reviendra plus tard
