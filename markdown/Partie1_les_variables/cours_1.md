@@ -39,3 +39,64 @@ En informatique nous utilisont les terme "déclarere" une variable pour dire que
 La casse est extremement importante. <i> MaVariable </i> est different de <i>mavariable</i>
 (La casse est le faite de mettre des minuscule et des majuscule)
  </div>
+
+
+Maintenant analyson la partie droite: la valeur 10.
+Il s'agit simplement de la valeur que nous allon affecter à notre variable (dans notre analogie il s'agit des affaires que nous mettons dans notre case).
+
+Désormais lorsque je souhaite utiliser la valeur 10 dans mon programme je peut utiliser ma variable : Ma_variable
+
+<div class="alert alert-block alert-warning">
+C'est pas hyper pratique, pourquoi ne pas simplement utiliser directement la valeur 10 plutot qu'une variable?
+</div>
+Pour l'instant et pour cette exemple c'est pas faux. Mais très vite nous allons voire l'utiliter de labeliser des valeurs.
+
+**Déclaration multiple **
+Déclarer des variables est quelques chose de tres fréquent dans un programme. C'est pourquoi en python il existe différentes syntaxe pour gagner du temps.
+
+```python runnable
+A = 10
+B = 4
+C = 25600
+```
+Peut s'ecrire plus rapidement:
+
+```python runnable
+A,B,C = 10,4,25600
+```
+
+/!\ Dans ce cas , faite attention de ne pas vous tromper dans l'ordre de Déclaration
+
+A,B,C = 10,4,25600 sera différent de A,C,B = 10,4,25600
+
+
+### Modifier le contenue d'une variable
+Bon il est temps de rentré dans le vif du sujet. L'interet majeur de déclarer une variable est de pouvoir y modifier sont contenue.
+Il est effectivement possible de modifier le contenu d'une variable déjà déclarer.
+
+```python runnable
+A = 10
+A = 20
+print(A)
+```
+Ici nous nous somme contenter de modifier le contenue de notre variable A. Nous avons donc retiré de notre case la valeur 10 pour y stocker la valeur 20.
+
+```python runnable
+A = 10
+A = A*2
+print(A)
+```
+Ici c'est un poil plus complexe: Nous avons modifier le contenue de notre variable A avec la valeur de la variable A!!
+Détaillons ce que va faire l'ordinateur exactement:
+L'ordinateur va lire la 1er instruction <i>A = </i> (il comprend donc qu'il va devoir modifier la valeur de la case,mais pour l'instant il ne fait rien)
+ensuite il analyse <i>A*2 </i> autrement dit <i>valeur de la  case A *2</i> a cette étape la case A n'a pas encore été modifier, elle vos donc toujours 10. l'ordinateur remplace donc
+l'instruction <i>A*2</i> par <i>10*2</i> , ce qui donnera l'instruction une fois analyser <i>A = 20</i>
+
+
+<div class="alert alert-block alert-warning">
+Modifier une variable est une chose tres fréquente. Notament l'incrémentation d'un indice, c'est pourquoi il existe une syntaxe un peut plus rapide:
+A += 1
+équivaux à
+A = A +1
+Cette syntaxe est valable pour tout les operateur (+-*/)
+</div>
