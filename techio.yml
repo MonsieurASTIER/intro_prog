@@ -5,7 +5,7 @@ plan:
 - title: présentation du site
   statement: markdown/part1.md
 -title: chapitre 1
- statement: markdown/Partie1_les_variables/cours_1.1.md
+ statement: markdown/Partie1_les_variables/cours_1.md
 projects:
   example:
     root: /code
