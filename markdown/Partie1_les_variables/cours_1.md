@@ -64,9 +64,9 @@ Peut s’écrire plus rapidement:
 
 ```python runnable
 A,B,C = 10,4,25600
-print(a)
-print(b)
-print(c)
+print(A)
+print(B)
+print(C)
 ```
 
 /!\ Dans ce cas , faite attention de ne pas vous tromper dans l'ordre de Déclaration
@@ -93,7 +93,7 @@ print(A)
 Ici c'est un poil plus complexe: Nous avons modifier le contenue de notre variable A avec la valeur de la variable A!!
 Détaillons ce que va faire l'ordinateur exactement:
 L'ordinateur va lire la 1er instruction <i>A = </i> (il comprend donc qu'il va devoir modifier la valeur de la case,mais pour l'instant il ne fait rien)
-ensuite il analyse ' A*2 '' autrement dit '''python valeur de la  case A *2 ''' a cette étape la case A n'a pas encore été modifier, elle vos donc toujours 10. l'ordinateur remplace donc
+ensuite il analyse ' A*2 ' autrement dit '''python valeur de la  case A *2 ''' a cette étape la case A n'a pas encore été modifier, elle vos donc toujours 10. l'ordinateur remplace donc
 l'instruction ''' A*2 ''' par ' 10*2 ' , ce qui donnera l'instruction une fois analyser <i>A = 20</i>
 
 
