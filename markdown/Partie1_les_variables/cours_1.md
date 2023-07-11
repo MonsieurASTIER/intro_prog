@@ -115,4 +115,4 @@ print(A)
 
 ### Pratiquons un peut
 
-@[Okay! entraine toi!]({"stubs": ["./les_variables/ex1.py"], "command": "./les_variables/python3 valide_ex1.py"})
+@[Okay! entraine toi!]({"stubs": ["./les_variables/ex1.py"], "command": "python3 ./les_variables/valide_ex1.py"})
