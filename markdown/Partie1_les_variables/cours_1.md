@@ -93,17 +93,26 @@ print(A)
 Ici c'est un poil plus complexe: Nous avons modifier le contenue de notre variable A avec la valeur de la variable A!!
 Détaillons ce que va faire l'ordinateur exactement:
 L'ordinateur va lire la 1er instruction <i>A = </i> (il comprend donc qu'il va devoir modifier la valeur de la case,mais pour l'instant il ne fait rien)
-ensuite il analyse ```A*2``` autrement dit _valeur de la  case A *2_ a cette étape la case A n'a pas encore été modifier, elle vos donc toujours 10. l'ordinateur remplace donc
-l'instruction _A*2_  par _10*2_ , ce qui donnera l'instruction une fois analyser _A = 20_
+ensuite il analyse ``` A*2 ``` autrement dit ``` valeur de la  case A *2 ``` a cette étape la case A n'a pas encore été modifier, elle vos donc toujours ```10```. l'ordinateur remplace donc
+l'instruction ```A*2```  par ```10*2``` , ce qui donnera l'instruction une fois analyser ```A = 20```
 
 
 <div class="alert alert-block alert-warning">
 Modifier une variable est une chose très fréquente. Notamment l'incrémentation d'un indice, c'est pourquoi il existe une syntaxe un peut plus rapide:
-```python
+```
 A += 1
 #équivaux à
 A = A +1
 ```
 
-Cette syntaxe est valable pour tout les operateur (+-*/)
+Cette syntaxe est valable pour tout les opérateur (+-*/)
+```python runnable
+A = 10
+A *=2
+print(A)
+```
 </div>
+
+### Pratiquons un peut
+
+@[Okay! entraine toi!]({"stubs": ["exemple.py"], "command": "python3 valide_exemple.py"})
