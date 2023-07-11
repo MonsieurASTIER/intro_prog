@@ -6,6 +6,8 @@ plan:
   statement: markdown/part1.md
 - title: chapitre 1
   statement: markdown/Partie1_les_variables/cours_1.md
+- title: QCM variable
+  statement: markdown/Partie1_les_variables/QCM_cours1.md  
 projects:
   example:
     root: /code

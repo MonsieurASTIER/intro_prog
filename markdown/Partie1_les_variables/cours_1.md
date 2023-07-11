@@ -116,3 +116,13 @@ print(A)
 ### Pratiquons un peut
 
 @[Okay! entraine toi!]({"stubs": ["./les_variables/ex1.py"], "command": "python3 ./les_variables/valide_ex1.py"})
+
+
+### A savoir
+Maintenant que nous savons ce qu'est une variable et comment la manipuler, il est temps de faire un petit point sur la syntaxe de ces variables.
+J'ai dit qu'on pouvait labeliser notre variable avec le nom que l'ont veut. Ce n'est pas tout à fait vrai.Il existe quelques petite restriction:
+> Seul les caractére alphaNumérique (a-z,A-Z, et 0-9) sont autoriser ainsi que l'underscore: _
+> Le nom d'une variable ne doit pas commencer par un chiffre
+> Pas d'espace dans les variables (peut etre contourner avec _)
+> Ils sont sensible à la casse
+> Certain nom sont reservé au fonction systeme: exemple int,float... (vous les découvrirer au fur et à mesure)
