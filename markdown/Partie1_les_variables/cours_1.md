@@ -90,7 +90,7 @@ Ici c'est un poil plus complexe: Nous avons modifier le contenue de notre variab
 Détaillons ce que va faire l'ordinateur exactement:
 L'ordinateur va lire la 1er instruction <i>A = </i> (il comprend donc qu'il va devoir modifier la valeur de la case,mais pour l'instant il ne fait rien)
 ensuite il analyse <i>A*2 </i> autrement dit <i>valeur de la  case A *2</i> a cette étape la case A n'a pas encore été modifier, elle vos donc toujours 10. l'ordinateur remplace donc
-l'instruction <i>A*2</i> par <i>10*2</i> , ce qui donnera l'instruction une fois analyser <i>A = 20</i>
+l'instruction <i> A*2 </i> par <i> 10*2 </i> , ce qui donnera l'instruction une fois analyser <i>A = 20</i>
 
 
 <div class="alert alert-block alert-warning">
