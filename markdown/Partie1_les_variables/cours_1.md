@@ -27,7 +27,7 @@ Ma_variable = 10
 #Attention de ne pas confondre = et == l'opérateur de comparaison
 ```
 <div class="alert alert-block alert-info">
-En informatique nous utilisons les termes "déclarer" une variable pour dire que nous avons *crée* une variable.
+En informatique nous utilisons les termes "déclarer" une variable pour dire que nous avons **crée** une variable.
 </div>
 
 
