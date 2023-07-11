@@ -20,9 +20,6 @@ def test_Verif():
                 send_msg("Echecs","Ce n'est pas la sortie attendu")
                 assert False , ("echec")
         print(str(rep))
-    except AssertionError as e:
-        print("TECHIO> success false")
-        send_msg("Echecs","recommence")
     except Exception as e:
         print("exception")
         print(e)
