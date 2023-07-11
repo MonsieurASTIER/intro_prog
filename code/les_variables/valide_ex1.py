@@ -1,6 +1,11 @@
-import io
 import sys
+import io
 import re
+
+
+print("F1")
+sys.stdout=io.StringIO()
+print("F2")
 
 
 def send_msg(channel, msg):
