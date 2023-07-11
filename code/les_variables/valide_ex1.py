@@ -4,7 +4,7 @@ import re
 
 
 print("F1")
-sys.stdout=io.StringIO()
+#sys.stdout=io.StringIO()
 print("F2")
 
 
@@ -16,7 +16,7 @@ def test_Verif():
     print("test_verif")
     try:
         print("iA")
-        sys.stdout=io.StringIO()
+        #sys.stdout=io.StringIO()
         print("B")
         rep = sys.stdout.getvalue().split("\n")
         print("inside the try")
