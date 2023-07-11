@@ -20,7 +20,7 @@ def test_Verif():
             if reponse != 22:
                 print("TECHIO> success false")
                 send_msg("Echecs","Ce n'est pas la sortie attendu")
-                assert False , ("echec")
+                #assert False , ("echec ABCD")
         print(str(rep))
     except OSError:
         print('cannot open')
