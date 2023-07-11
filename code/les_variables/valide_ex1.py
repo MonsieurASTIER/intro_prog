@@ -22,9 +22,10 @@ def test_Verif():
                 send_msg("Echecs","Ce n'est pas la sortie attendu")
                 assert False , ("echec")
         print(str(rep))
-    except Exception as e:
-        print("exception")
-        print(e)
+    except OSError:
+        print('cannot open')
+    else:
+        print("test")
 
 if __name__ == "__main__":
     print("main")
