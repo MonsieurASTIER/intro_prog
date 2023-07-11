@@ -3,7 +3,7 @@
 Peut importe le langage de programmation utiliser, il existe un point commun entre eux: l'utilisation de variable!
 
 ### Commençons par une analogie
-Vous venez d'aménager dans votre nouvelle maison,et souhaitez avoir une chambre parfaitement ranger (le rêve de tout parent)
+Vous venez d'aménager dans votre nouvelle maison,et souhaitez avoir une chambre parfaitement ranger (le rêve de tout parent).<\br>
 Pour cela vous avez acheter une superbe étagere à case!! Dans chaque case vous allez pouvoir y ranger des affaires.
 
 ![etagere](../../img/etagere.jpeg)
