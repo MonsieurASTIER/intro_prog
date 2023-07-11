@@ -3,7 +3,7 @@
 Peut importe le langage de programmation utiliser, il existe un point commun entre eux: l'utilisation de variable!
 
 ### Commençons par une analogie
-Vous venez d'aménager dans votre nouvelle maison,et souhaitez avoir une chambre parfaitement ranger (le rêve de tout parent).<\br>
+Vous venez d'aménager dans votre nouvelle maison,et souhaitez avoir une chambre parfaitement ranger (le rêve de tout parent).
 Pour cela vous avez acheter une superbe étagere à case!! Dans chaque case vous allez pouvoir y ranger des affaires.
 
 ![etagere](../../img/etagere.jpeg)
@@ -24,9 +24,10 @@ En python elle se déclare ainsi:
 
 ```python runnable
 Ma_variable = 10
+#Attention de ne pas confondre = et == l'operateur de comparaison
 ```
 <div class="alert alert-block alert-info">
-En informatique nous utilisont les terme "déclarere" une variable pour dire que nous avons **crée** une variable
+En informatique nous utilisont les terme "déclarere" une variable pour dire que nous avons *crée* une variable
 </div>
 
 
@@ -36,8 +37,8 @@ En informatique nous utilisont les terme "déclarere" une variable pour dire que
  C'est le nom que nous utiliseront dans la suite du programme pour faire référence au contenue de notre case.
 
  <div class="alert alert-block alert-warning">
-La casse est extremement importante. <i> MaVariable </i> est different de <i>mavariable</i>
-(La casse est le faite de mettre des minuscule et des majuscule)
+La casse (le faite de mettre des minuscule et des majuscule) est extremement importante. <i> MaVariable </i> est different de <i>mavariable</i>
+
  </div>
 
 
@@ -47,22 +48,25 @@ Il s'agit simplement de la valeur que nous allon affecter à notre variable (dan
 Désormais lorsque je souhaite utiliser la valeur 10 dans mon programme je peut utiliser ma variable : Ma_variable
 
 <div class="alert alert-block alert-warning">
-C'est pas hyper pratique, pourquoi ne pas simplement utiliser directement la valeur 10 plutot qu'une variable?
+C'est pas hyper pratique, pourquoi ne pas simplement utiliser directement la valeur 10 plutôt qu'une variable?
 </div>
 Pour l'instant et pour cette exemple c'est pas faux. Mais très vite nous allons voire l'utiliter de labeliser des valeurs.
 
-**Déclaration multiple **
-Déclarer des variables est quelques chose de tres fréquent dans un programme. C'est pourquoi en python il existe différentes syntaxe pour gagner du temps.
+#### Déclaration multiple
+Déclarer des variables est quelques chose de très fréquent dans un programme. C'est pourquoi en python il existe différentes syntaxe pour gagner du temps.
 
 ```python runnable
 A = 10
 B = 4
 C = 25600
 ```
-Peut s'ecrire plus rapidement:
+Peut s’écrire plus rapidement:
 
 ```python runnable
 A,B,C = 10,4,25600
+print(a)
+print(b)
+print(c)
 ```
 
 /!\ Dans ce cas , faite attention de ne pas vous tromper dans l'ordre de Déclaration
@@ -79,7 +83,7 @@ A = 10
 A = 20
 print(A)
 ```
-Ici nous nous somme contenter de modifier le contenue de notre variable A. Nous avons donc retiré de notre case la valeur 10 pour y stocker la valeur 20.
+Dans cette exemple nous nous somme contenter de modifier le contenue de notre variable A. Nous avons donc retiré de notre case la valeur 10 pour y stocker la valeur 20 (nous avons simplement remplacer le contenu d'une case sans modifier sont etiquette.C'est comme remplacer une casquette par une autre).
 
 ```python runnable
 A = 10
@@ -89,8 +93,8 @@ print(A)
 Ici c'est un poil plus complexe: Nous avons modifier le contenue de notre variable A avec la valeur de la variable A!!
 Détaillons ce que va faire l'ordinateur exactement:
 L'ordinateur va lire la 1er instruction <i>A = </i> (il comprend donc qu'il va devoir modifier la valeur de la case,mais pour l'instant il ne fait rien)
-ensuite il analyse <i>A*2 </i> autrement dit <i>valeur de la  case A *2</i> a cette étape la case A n'a pas encore été modifier, elle vos donc toujours 10. l'ordinateur remplace donc
-l'instruction <i> A*2 </i> par <i> 10*2 </i> , ce qui donnera l'instruction une fois analyser <i>A = 20</i>
+ensuite il analyse ' A*2 '' autrement dit '''python valeur de la  case A *2 ''' a cette étape la case A n'a pas encore été modifier, elle vos donc toujours 10. l'ordinateur remplace donc
+l'instruction ''' A*2 ''' par ' 10*2 ' , ce qui donnera l'instruction une fois analyser <i>A = 20</i>
 
 
 <div class="alert alert-block alert-warning">
