@@ -11,12 +11,14 @@ def test_Verif():
     try:
         sys.stdout=io.StringIO()
         rep = sys.stdout.getvalue().split("\n")
+        print("inside the try")
         for i,reponse in enumerate(rep):
             print(str(i) + " : " + str(reponse))
             if reponse != 22:
                 print("TECHIO> success false")
                 send_msg("Echecs","Ce n'est pas la sortie attendu")
-        print("TECHIO> success true")
+
+        print(str(rep))
 
 
     except AssertionError as e:
