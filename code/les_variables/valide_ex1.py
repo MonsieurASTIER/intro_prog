@@ -8,6 +8,7 @@ def send_msg(channel, msg):
 
 
 def test_Verif():
+    print("test_verif")
     try:
         sys.stdout=io.StringIO()
         rep = sys.stdout.getvalue().split("\n")
@@ -26,4 +27,5 @@ def test_Verif():
         send_msg("Echecs","recommence")
 
 if __name__ == "__main__":
+    print("main")
     test_Verif()
