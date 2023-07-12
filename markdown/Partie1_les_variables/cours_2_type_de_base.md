@@ -33,7 +33,7 @@ il en est de même en informatique
 
 0 et 0.0 sont deux type différents
 
-### Les chaines de caractères
+### Les chaines de caractères (str)
 il s'agit de textes (string en anglais) encadrée par des guillemets (simple ou double): "ceci est une chaine de caractères".
 L'utilisation du type du guillemets permet simplement d'inclure l'autre type de guillemets:
 ```
@@ -71,21 +71,28 @@ print(type(B))
 En python il est inutile de définir à l'avance le type de la variable.C'est l'interpréteur qui le fait tout seule.
 Ainsi lorsque on affecte un int à une variable, python sait qu'il s'agit d'un int et on dit que la variable est de type int.
 Si on change de type plus tard (en affectant un autre type à la variable), l'interpréteur s'adaptera automatiquement et de maniere transparente pour le développeur.
-C'est bien pratique, en python il n'y à donc pas besoin de s'occuper du type de ma variable, puisque l'interpréteur s'occupe de tout.
-Oui c'est vrai. Mais il existe des situations ou nous avons besoin que ma variable soit d'un type précis, ou bien de convertir une variable d'un type à une autre.
+C'est bien pratique,il n'y à donc pas besoin de s'occuper des type l'interpréteur s'occupe de tout!
+Oui c'est vrai, mais il existe des situations ou nous avons besoin que nos variables soit d'un type précis, ou bien de convertir une variable d'un type à une autre.
+Exemple:
+```
+variableString = "ma chaine 10"
+valeurExtraite = variableString[-2:] #ici j'extrait les 2 dernier caractere de la chaine: 10
+```
+> valeur extraite vos désormais la chaine de caractére "10"
+> Que faire si je veux interpréter cette valeur comme le nombre 10 et non la chaine de caractere "10"?
 
 ### conversion des variables
 Pour les types de base l'opération est simple.
 
 Convertir une chaine de caractére en entier:int
-j'ai extrait la valeur "10" d'une chaine de caractere. Mais python considére toujours que Variable = "10" est une chaine de caractere, or je voudrait l'interpréter entant qu'entier:
-variable = int(variable)
+> ```variable = int(variable)```
 variable est désormais du type int
 l'opération inverse:
-variable = str(variable)
+
+>```variable = str(variable)```
 variable est redevenu de type chaine de caractére
 
-Attention à convertir ce qui est convertible! int("abc") renveras une erreur.
+Attention à convertir ce qui est convertible! ```int("abc")``` renveras une erreur.
 
 Faite des essaie ici:
 ```python runnable
