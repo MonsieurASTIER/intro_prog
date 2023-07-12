@@ -16,7 +16,7 @@ def test_Verif():
     print("test_verif")
     try:
         print("iA")
-        #sys.stdout=io.StringIO()
+        sys.stdout=io.StringIO()
         print("B")
         rep = sys.stdout.getvalue().split("\n")
         print("inside the try")
