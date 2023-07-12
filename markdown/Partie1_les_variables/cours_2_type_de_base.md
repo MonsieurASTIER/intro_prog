@@ -49,7 +49,7 @@ sur plusieur ligne
 """
 ```
 
-### booléens
+### booléens (bool)
 le dernier type est tres simple, il ne peut prendre que deux valeur: vrai ou faux
 noté ``` True ``` et ``` False ```. Elle est utile notamment dans la prise de décision
 
