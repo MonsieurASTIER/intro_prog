@@ -27,8 +27,8 @@ def test_Verif():
                 send_msg("Echecs","Ce n'est pas la sortie attendu")
                 #assert False , ("echec ABCD")
         print(str(rep))
-    except :
-        print('cannot open')
+    except Exception as err:
+        print(f"Unexpected {err=}, {type(err)=}")
 
 
 if __name__ == "__main__":
