@@ -31,3 +31,8 @@ Il est temps de tester vos connaissances.
 
 Si vous n'avez pas eu 100% de bonne réponse, relisez le cours d'avant, et n'hésitez pas à tester les instructions
 sur votre terminal python
+
+#Bilan
++ Une variable est un label et une valeur
++ Elle peut être modifier dans votre mon_programme
++ Il est conseillers de nommer vos variable de manière claire,afin de faciliter la compréhension du code
