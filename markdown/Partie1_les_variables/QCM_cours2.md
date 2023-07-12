@@ -42,7 +42,7 @@ B=str(10.0)
 -[X] Oui
 
 
-?[7. Quelles est les nombres correctement écrits en python?]
+?[7. Quelles sont les nombres correctement écrits en python?]
 - [X] 3.45
 - [X] -175
 - [] 2,45
@@ -51,7 +51,7 @@ B=str(10.0)
 - [X] 1.E10
 
 
-?[8. Quelles est les nombres considérés comme des nombre entiers en Python?]
+?[8. Quelles sont les nombres considérés comme des nombre entiers en Python?]
 - [] 1.457
 - [] .145
 - [X] 125
