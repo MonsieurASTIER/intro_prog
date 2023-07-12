@@ -15,10 +15,9 @@ def send_msg(channel, msg):
 def test_Verif():
     print("test_verif")
     try:
-        print("iA")
-        sys.stdout=io.StringIO()
+
         print("B")
-        rep = sys.stdout.getvalue().split("\n")
+        rep = io.StringIO().getvalue().split("\n")
         print("inside the try")
         for i,reponse in enumerate(rep):
             print(str(i) + " : " + str(reponse))
