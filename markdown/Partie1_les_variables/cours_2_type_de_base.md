@@ -78,8 +78,8 @@ Exemple:
 variableString = "ma chaine 10"
 valeurExtraite = variableString[-2:] #ici j'extrait les 2 dernier caractere de la chaine: 10
 ```
-> valeur extraite vos désormais la chaine de caractére "10"
-> Que faire si je veux interpréter cette valeur comme le nombre 10 et non la chaine de caractere "10"?
+La variable valeurExtraite vos désormais la chaine de caractére: "10"
+Que faire si je veux interpréter cette valeur comme le nombre 10 et non la chaine de caractere "10"?
 
 ### conversion des variables
 Pour les types de base l'opération est simple.
@@ -87,6 +87,7 @@ Pour les types de base l'opération est simple.
 Convertir une chaine de caractére en entier:int
 > ```variable = int(variable)```
 variable est désormais du type int
+
 l'opération inverse:
 
 >```variable = str(variable)```
