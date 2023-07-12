@@ -4,11 +4,11 @@ plan:
   statement: markdown/statement.md
 - title: présentation du site
   statement: markdown/part1.md
-- title: chapitre 1: les variables
+- title: chapitre 1 les variables
   statement: markdown/Partie1_les_variables/cours_1.md
 - title: QCM variable
   statement: markdown/Partie1_les_variables/QCM_cours1.md
-- title: chapitre 2: Type de base
+- title: chapitre 2 Type de base
   statement: markdown/Partie1_les_variables/cours_2_type_de_base.md
 projects:
   example:
