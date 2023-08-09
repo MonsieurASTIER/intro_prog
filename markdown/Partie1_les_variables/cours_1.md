@@ -1,3 +1,7 @@
+Ce cours corréspond au chapitre 2 de votre manuel scolaire.
+Je vous encourage donc à lire les pages 30 à 38 en paraléle de ce cours, car celui-ci représente un bon complément.
+Certaine notions sont expliqué différament dans le manuel que dans le cours ci-dessous et vous conviendra peut être mieux. 
+
 # Les variables
 
 Peu importe le langage de programmation utilisé, il existe un point commun entre eux: l'utilisation de variable!

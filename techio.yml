@@ -11,7 +11,9 @@ plan:
 - title: chapitre 2 Type de base
   statement: markdown/Partie1_les_variables/cours_2_type_de_base.md
 - title: QCM variable
-  statement: markdown/Partie1_les_variables/QCM_cours2.md  
+  statement: markdown/Partie1_les_variables/QCM_cours2.md
+- title: Exercices
+  statement: markdown/Partie1_les_variables/Exercices_1.md
 projects:
   example:
     root: /code
