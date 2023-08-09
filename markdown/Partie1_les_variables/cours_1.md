@@ -132,9 +132,9 @@ La seconde ligne de l'exemple consiste à affecter à une nouvelle variable y le
 
 Python évalue chaque expression qu'on lui soumet, aussi compliquée soit-elle, et le résultat de cette évaluation est toujours lui-même une valeur. A cette valeur, il attribue automatiquement un type, lequel dépend de ce qu'il y a dans l'expression. Dans l'exemple ci-dessus, y sera du type réel, parce que l'expression évaluée pour déterminer sa valeur contient elle-même au moins un réel.
 
-On peut donc calculer des formules mathématiques avec les opération arithémtiques usuelles: addition **+** soustraction **-** multiplication ***** et division **/**
+On peut donc calculer des formules mathématiques avec les opération arithémtiques usuelles: addition **+** soustraction **-** multiplication **\*** et division **/**
 
-Les opérateurs Python ne sont pas seulement les quatres opérateurs mathématiques de base. Il faut leur ajouter l'opérateur **\*\*** pour l'exponentiation, ainsi qu'un certain nombre d'opérateurs logiques, des opérateurs agissant sur les chaînes de caractères, des opérateurs effectuant des tests d'identité ou d'appartenance, etc. Nous reparlerons de tout cela plus loin.Mais voici quelques un utile à retenir: 
+Les opérateurs Python ne sont pas seulement les quatres opérateurs mathématiques de base. Il faut leur ajouter l'opérateur **\*\*** pour l'exponentiation, ainsi qu'un certain nombre d'opérateurs logiques, des opérateurs agissant sur les chaînes de caractères, des opérateurs effectuant des tests d'identité ou d'appartenance, etc. Nous reparlerons de tout cela plus loin.Mais voici quelques un utile à retenir:
 **//** pour la division entiere et **%** pour le reste (dit modulo)
 
 
