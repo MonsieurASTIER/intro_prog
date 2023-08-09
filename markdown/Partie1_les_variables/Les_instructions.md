@@ -141,9 +141,4 @@ le **XOR** (ou exclusif) signie l'un ou l'autre mais pas les deux
 
 
 
-faire des exercices sur les instruction 
-
-![instruction](../../img/bloc_condition.png)
-
-Si on regarde l'automate ci-dessus
-Voyons comment ce type de logique fonctionne dans le code.
+faire des exercices sur les instruction
