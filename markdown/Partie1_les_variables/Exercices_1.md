@@ -5,7 +5,7 @@ Bon, il est temps de passer à la pratique.
 Avant de commencer voici quelques instructions qui vont vous être utiles dans votre vie de développeur Python:
 
 
-## Afficher des trucs dans un terminal
+## Afficher du textes dans un terminal
 
 La plupart de vos premiers programmes ne disposeront pas d'interface graphique, mais simplement un terminal (ou console).
 Pour cela, il existe une fonction simple :
@@ -14,16 +14,12 @@ Pour cela, il existe une fonction simple :
 ```
 
 #Afficher un texte
-
 print("Ce que je souhaite afficher")
-
 
 #Afficher le contenu d'une variable
 
 variableA = 10
-
 print(variableA)
-
 ```
 
 
@@ -35,9 +31,7 @@ Ceci se fait avec le caractère #
 
 
 ```
-
 # ceci n'est pas interpréter par l'ordinateur
-
 ```
 
 
@@ -52,11 +46,8 @@ Cette instruction permet de récupérer une saisie clavier
 
 
 ```
-
 A = input()
-
 #si utilisateur saisie "abc" alors la variable A="abc"
-
 ```
 
 
@@ -66,14 +57,9 @@ Il est possible de rajouter un affichage à votre commande input("afficher le me
 ```
 
 print("Message affiché")
-
 A = input()
-
 # est équivalant à
-
-
 A = input("Message affiché")
-
 ```
 
 
