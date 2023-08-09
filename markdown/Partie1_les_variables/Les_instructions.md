@@ -11,10 +11,12 @@ Elles sont les briques de bases d'un programme, et permettent en fonction du ré
 
 ## Les instructions conditionnelles
 
+ ![instruction](../../img/bloc_condition.png)
+
 Vous en avez déjà tous fait sans le savoir. Il s'agit simplement de prendre une décision en fonction de paramétre:
-Si on à le temps alors j'irai faire du sport
-Si j'ai des bonnes notes alors j'aurai une SWITCH pour noel
-Si je fait les exercices du cours alors j'arriverait facilement à coder sinon je vais galerer
+- Si on à le temps alors j'irai faire du sport
+- Si j'ai des bonnes notes alors j'aurai une SWITCH pour noel
+- Si je fait les exercices du cours alors j'arriverait facilement à coder sinon je vais galerer
 
 Tout ces phrases on une chose en commun: une instruction conditionnelles **SI**
 
@@ -123,9 +125,9 @@ Si la condition A n'est pas rempli alors le bloc B est exécuter (la condition A
 | a > b | a est strictement supérieure à b |
 | a >= b | a est supérieure ou égale à b |
 | a != b | a est différent de b |
-| a<b and b>c| a est inférieure à b ET b et supérieure à c |
-| a<b or b>c| a est inférieure à b OU b et supérieure à c |
-| a<b ^ b>c| a est inférieure à b (OU exclusif) b et supérieure à c |
+| a < b and b > c| a est inférieure à b ET b et supérieure à c |
+| a < b or b > c| a est inférieure à b OU b et supérieure à c |
+| a < b ^ b > c| a est inférieure à b (OU exclusif) b et supérieure à c |
 | not(True) | le contraire de True |
 
 le **XOR** (ou exclusif) signie l'un ou l'autre mais pas les deux
@@ -140,10 +142,7 @@ le **XOR** (ou exclusif) signie l'un ou l'autre mais pas les deux
 
 
 
- ![instruction](../../img/bloc_condition.png)
 
- Si on regarde l'automate ci-dessus
- Voyons comment ce type de logique fonctionne dans le code.
 
 
 faire des exercices sur les instruction
