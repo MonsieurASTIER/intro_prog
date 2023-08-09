@@ -1,6 +1,6 @@
 Ce cours corréspond au chapitre 2 de votre manuel scolaire.
 Je vous encourage donc à lire les pages 30 à 38 en paraléle de ce cours, car celui-ci représente un bon complément.
-Certaine notions sont expliqué différament dans le manuel que dans le cours ci-dessous et vous conviendra peut être mieux. 
+Certaine notions sont expliqué différament dans le manuel que dans le cours ci-dessous et vous conviendra peut être mieux.
 
 # Les variables
 
@@ -116,6 +116,27 @@ A *=2
 print(A)
 ```
 </div>
+
+
+## Les opérateurs:
+On manipule les valeurs et les variables qui les référencent, en les combinant avec des opérateurs pour former des expressions. Exemple :
+```
+a, b = 7.3, 12
+y = 3*a + b/5  
+```
+
+Dans cet exemple, nous commençons par affecter aux variables a et b les valeurs 7,3 et 12. Comme déjà expliqué précédemment, Python assigne automatiquement le type « réel » à la variable a, et le type « entier » à la variable b.
+
+La seconde ligne de l'exemple consiste à affecter à une nouvelle variable y le résultat d'une expression qui combine les opérateurs *** , +** et **/** avec les opérandes a, b, 3 et 5. Les opérateurs sont les symboles spéciaux utilisés pour représenter des opérations mathématiques simples, telles l'addition ou la multiplication. Les opérandes sont les valeurs combinées à l'aide des opérateurs.
+
+
+Python évalue chaque expression qu'on lui soumet, aussi compliquée soit-elle, et le résultat de cette évaluation est toujours lui-même une valeur. A cette valeur, il attribue automatiquement un type, lequel dépend de ce qu'il y a dans l'expression. Dans l'exemple ci-dessus, y sera du type réel, parce que l'expression évaluée pour déterminer sa valeur contient elle-même au moins un réel.
+
+On peut donc calculer des formules mathématiques avec les opération arithémtiques usuelles: addition **+** soustraction **-** multiplication ***** et division **/**
+
+Les opérateurs Python ne sont pas seulement les quatres opérateurs mathématiques de base. Il faut leur ajouter l'opérateur **\*\*** pour l'exponentiation, ainsi qu'un certain nombre d'opérateurs logiques, des opérateurs agissant sur les chaînes de caractères, des opérateurs effectuant des tests d'identité ou d'appartenance, etc. Nous reparlerons de tout cela plus loin.Mais voici quelques un utile à retenir: 
+**//** pour la division entiere et **%** pour le reste (dit modulo)
+
 
 ### Pratiquons un peu
 

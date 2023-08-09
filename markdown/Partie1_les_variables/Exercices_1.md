@@ -57,7 +57,7 @@ Si vous n'avez pas comprit cette phrase relisé la partie sur les types de bases
 A l'aide de votre environnement de développement écrire les programmes suivants:
 
 
-**Programme 1:**
+**Programme 1:**^
 
   Ecrire l'expression qui calcule la moyenne de deux nombre A et B
   Afficher la moyenne pour la valeur A = 12 et B = 8
@@ -75,7 +75,7 @@ A l'aide de votre environnement de développement écrire les programmes suivant
   Sachant que le prix d'une baguette est de 1.20€ et le nombre de baguette acheté dépendra de votre saisie clavier
   Le programme devra donc demander à l'utilisateur combien de baguette il souhaite acheter
 
-**Programme 4:**
+**Programme 4:**^
 
   **a.**
   Trouver les valeurs suivantes,par exemple dans wikipedia et ecrire les valeurs python correspondante (attention au unité)
@@ -83,7 +83,9 @@ A l'aide de votre environnement de développement écrire les programmes suivant
   + Vitesse **C** de la lumière
   + Circonférence **t** de la terre
   + Population **P** de la terre
-  **b.** À partir des valeurs précédentes, ecrire les expressions qui calculent les valeurs suivantes (attention au unités!)
+
+  **b.**
+  À partir des valeurs précédentes, ecrire les expressions qui calculent les valeurs suivantes (attention au unités!)
   + Temps mis par la lumière du soleil pour atteindre la terre
   + Vitesse moyenne de la terre autour du Soleil, en supposant que la trajectoire est circulaire
   + Nombre de fois qu'un signal électrique fait le tour de la terre en 1seconde
