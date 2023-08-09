@@ -8,7 +8,7 @@ Avant de commencer voici quelques instructions qui vont vous être utiles dans v
 ## Afficher du textes dans un terminal
 
 La plupart de vos premiers programmes ne disposeront pas d'interface graphique, mais simplement un terminal (ou console).
-Pour cela, il existe une fonction simple :
+Pour afficher du texte dans la console il existe une fonction simple : print()
 
 
 ```
@@ -17,7 +17,6 @@ Pour cela, il existe une fonction simple :
 print("Ce que je souhaite afficher")
 
 #Afficher le contenu d'une variable
-
 variableA = 10
 print(variableA)
 ```
@@ -27,7 +26,7 @@ print(variableA)
 
 On y reviendra plus tard, mais il est **très important** de commenté vos codes.
 C'est-à-dire de rajouter des commentaires qui ne seront pas lus par l'ordinateur, mais simplement pour les autres développeurs
-Ceci se fait avec le caractère #
+Ceci se fait avec le caractère **#**
 
 
 ```
@@ -41,8 +40,8 @@ Tout ce qui suit un # n'est pas lu par l'ordinateur (un peu comme si la ligne n'
 
 ## Récupérer une saisie clavier
 
-Une dernière instruction qui vous sera utile : input()
-Cette instruction permet de récupérer une saisie clavier
+Une dernière fonction qui vous sera utile : input()
+Cette fonction permet de récupérer une saisie clavier
 
 
 ```
@@ -63,8 +62,9 @@ A = input("Message affiché")
 ```
 
 
-/!\ input renvoie un type str (chaîne de caractère)
-Si vous n'avez pas compris cette phrase relisez la partie sur les types de bases
+/!\ input renvoie un type str (chaîne de caractère).
+
+_Si vous n'avez pas compris cette phrase relisez la partie sur les types de bases_
 
 
 
@@ -76,7 +76,7 @@ A l'aide de votre environnement de développement écrire les programmes suivant
 **Programme 1:**
 
 
-Écrire l'expression qui calcule la moyenne de deux nombres A et B
+Écrire l'expression qui calcule la moyenne de deux nombres A et B^ 
 Afficher la moyenne pour la valeur A = 12 et B = 8
 
 
