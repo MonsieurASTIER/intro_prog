@@ -56,7 +56,7 @@ if 1+1 == 2 :
   print("c'est vrai")
 
 if 1+1 > 2 :
-    print(c'est faux donc se message ne s'affichera pas)
+    print("c'est faux donc se message ne s'affichera pas")
 ```
 
 A cela on peut rajouter bloc **else** qui sera exécuter si la condition **if** n'est pas remplie
@@ -73,7 +73,7 @@ soit j'execute le blocA sinon j'exécute le bloc B.
 
 ```python runnable
 if 1+1 > 2 :
-    print(c'est faux donc se message ne s'affichera pas)
+    print("c'est faux donc se message ne s'affichera pas")
 else:
     print("du coup c'est ce message qui s'affiche")
 ```
@@ -139,6 +139,11 @@ le **XOR** (ou exclusif) signie l'un ou l'autre mais pas les deux
  l'opérateur **in** permet de teste l'appartenance d'une chaine à une autre (si celle-ci est présente dans l'autre)
 
 
+
+ ![instruction](../../img/bloc_condition.png)
+
+ Si on regarde l'automate ci-dessus
+ Voyons comment ce type de logique fonctionne dans le code.
 
 
 faire des exercices sur les instruction
