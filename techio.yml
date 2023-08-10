@@ -20,6 +20,10 @@ plan:
   statement: markdown/Partie1_les_variables/Exercices_2_condition.md
 - title: Les boucles
   statement: markdown/Partie1_les_variables/Les_boucles.md
+- title: Exercices
+  statement: markdown/Partie1_les_variables/Exercices_3_boucle.md
+
+
 
 
 projects:

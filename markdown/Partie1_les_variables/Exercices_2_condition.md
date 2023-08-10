@@ -232,5 +232,13 @@ Réecrire le programme de la question 12 qui renvoie la plus grnade valeur et so
 Récrire le programme du calcule du pain, mais désormais l'utilisateur devra saisir le nombre de pain acheter ainsi que le type de pain.
 
 __Astuce vous pouvez afficher un choix multiple à l'utilisateur en proposant une saisie précise:__
-__1.Pour une baguette tapper 1__
+__1.Pour une baguette taper 1__
 __2.Pour des croissant taper 2...__
+
+
+**Programme 3:**
+Ecrire un programme qui dit si le nombre saisie au clavier est paire ou impaire
+
+**Programme 4:**
+Ecrire un programme qui renvoie votre interprétation de votre IMC(google it).
+Votre programme prendrait en entrée une taille et un poids (attention au unité) et renvera une phrases contenant l'IMC et son interprétation
