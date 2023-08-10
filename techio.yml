@@ -2,8 +2,6 @@ title: Introduction à la programmation
 plan:
 - title: Hello world
   statement: markdown/statement.md
-- title: présentation du site
-  statement: markdown/part1.md
 - title: chapitre 1 les variables
   statement: markdown/Partie1_les_variables/cours_1.md
 - title: QCM variable
