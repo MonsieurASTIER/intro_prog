@@ -76,7 +76,8 @@ A l'aide de votre environnement de développement écrire les programmes suivant
 **Programme 1:**
 
 
-Écrire l'expression qui calcule la moyenne de deux nombres A et B^ 
+Écrire l'expression qui calcule la moyenne de deux nombres A et B
+
 Afficher la moyenne pour la valeur A = 12 et B = 8
 
 
@@ -84,6 +85,7 @@ Afficher la moyenne pour la valeur A = 12 et B = 8
 
 
 Écrire l'expression qui calcule la réduction d'un produit solder
+
 Afficher la valeur de la réduction pour un objet coûtant 50€ et une réduction de 10%
 Exemple: un couteau à 80€ solder à 20% donne une réduction de 16€
 
