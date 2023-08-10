@@ -7,7 +7,7 @@ Avant de commencer, voici quelques instructions qui vont vous être utiles dans 
 
 ## Afficher du texte dans un terminal
 
-La plupart de vos premiers programmes ne disposeront pas d'interface graphique, mais simplement un terminal (ou console).
+La plupart de vos premiers programmes ne disposeront pas d'interface graphique, mais simplement d'un terminal (ou console).
 Pour afficher du texte dans la console, il existe une fonction simple : print()
 
 
@@ -20,7 +20,8 @@ variableA = 10
 print(variableA)
 ```
 
-
+_Tu viens de parler de fonction sans expliquer ce que c'est._
+_C'est vrai, et ce sera l'objet d'une partie entière. En attendant, vous pouvez vous contenter de retenir que ce qui est écrit entre les parenthèses du print() correspond à ce qui sera affiché dans la console_
 
 ## Commenter votre code
 
@@ -46,9 +47,10 @@ A = input() #si utilisateur saisie "abc" alors la variable A="abc"
 
 Il est possible de rajouter un affichage à votre commande input("afficher le message")
 
-```python
+```python runnable
 print("Message affiché")
 A = input()
+print(A)
 # est équivalant à
 A = input("Message affiché")
 ```
