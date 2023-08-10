@@ -25,7 +25,7 @@ Elle sera de la forme :
 
 ```python
 if condition:
-bloc A
+  bloc A
 ```
 Le bloc A ne sera exécuté que si la condition est remplie :
 
@@ -35,11 +35,11 @@ Une séquence d'instructions, toutes indentées du même nombre d'espaces, est a
 
 ```python
 if condition :
-blocA
-blocA
-blocA
-blocB
-blocB
+  blocA
+  blocA
+  blocA
+  blocB
+  blocB
 
 ```
 Analyser bien la syntaxe : la condition commence par l'instruction **IF** suivie de la _condition_ suivie de **:** puis d'un retour à la ligne.
@@ -47,7 +47,7 @@ Le bloc commence par une **indentation**.
 
 ```python
 if condition:
-bloc A
+  bloc A
 ```
 Ceci renverra une erreur de syntaxe. (syntax error) (retenez ce message d'erreur vous le verrez souvent ;)
 
@@ -65,9 +65,9 @@ print("c'est faux donc ce message ne s'affichera pas.")
 
 ```python
 if condition:
-bloc A
+  bloc A
 else:
-bloc B
+  bloc B
 ```
 Dans cet extrait soit le code A sera exécuté, soit le code B **mais jamais les deux**
 else se traduit par **sinon**:
@@ -84,13 +84,13 @@ Plusieurs tests peuvent être enchaînés grâce au mot-clé **elif** (qui est l
 
 ```python
 if condition A:
-bloc A
+  bloc A
 elif conditionB:
-bloc B
+  bloc B
 elif conditionC:
-bloc C
+  bloc C
 else:
-bloc D
+  bloc D
 ```
 
 Attention cependant à l'ordre des elif, car **un seul bloc sera exécuter**: celui de la première condition remplie.
@@ -100,12 +100,12 @@ Ce n'est pas bien compliqué, il s'agit simplement d'une instruction conditionne
 Voyez plutôt :
 ```python
 if condition A:
-if conditionAA:
-bloc AA
+  if conditionAA:
+    bloc AA
+  else:
+    bloc AB
 else:
-bloc AB
-else:
-bloc B
+  bloc B
 ```
 
 Ici, le bloc AA sera exécuté si la condition A est remplie et la condition AA
