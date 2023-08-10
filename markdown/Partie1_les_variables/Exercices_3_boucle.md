@@ -1,5 +1,6 @@
 # Mise en pratique
 
+__teste de tesxte ne italite__
 
 ```python
 for i in range(10):
@@ -12,6 +13,7 @@ for i in range(10):
 -[] 0,2,4,8,16,32,64,128,256,512
 -[] affiche rien
 
+---
 ---
 
 ```python
@@ -84,7 +86,9 @@ print(a)
 -[X] 10
 -[] boucle infinie
 
-
+a,b = 0,0
+while a<10:
+  b = a +1  
 ```python
 a = 0
 while 1==1:
