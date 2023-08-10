@@ -8,23 +8,23 @@ a=10
 b,c = 8,2
 ```
 
-?[1. l'instruction a<8 renverras :]
+?[1. l'instruction (a<8) renverras :]
 - [] True
 - [X] False
 
-?[2. l'instruction a<b renverras : ]
+?[2. l'instruction (a<b) renverras : ]
 - [] True
 - [X] False
 
-?[3. l'instruction a>b and a>c renverras :]
+?[3. l'instruction (a>b and a>c) renverras :]
 - [X] True
 - [] False
 
-?[4. l'instruction ac renverras :]
+?[4. l'instruction (a-2 != b) renverras :]
 - [] True
 - [x] False
 
-?[5. l'instruction True and False renverras :]
+?[5. l'instruction (True and False) renverras :]
 - [] True
 - [X] False
 

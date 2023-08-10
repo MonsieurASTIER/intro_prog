@@ -96,8 +96,9 @@ else:
 ```
 
 Attention cependant à l'ordre des elif, car **un seul bloc sera exécuter**: celui de la première condition remplie.
+Le compilateur analysera dans l'ordre les différentes conditions (ici condition A puis condition B...) et s'arrêtera dès qu'une condition sera remplie.
 
-## condition imbriquée :
+## Condition imbriquée :
 Ce n'est pas bien compliqué, il s'agit simplement d'une instruction conditionnelle dans une autre instruction conditionnelle :
 Voyez plutôt :
 ```python
@@ -110,13 +111,13 @@ else:
   bloc B
 ```
 
-Ici, le bloc AA sera exécuté si la condition A est remplie et la condition AA
+Ici, le bloc AA sera exécuté si la condition A est remplie et la condition AA.
 Si la condition A est remplie, mais pas la condition AA alors le bloc AB sera exécuté.
-Si la condition A n'est pas rempli, alors le bloc B est exécuté (la condition AA n'est même pas testée.).
+Si la condition A n'est pas remplie, alors le bloc B est exécuté (la condition AA n'est même pas testée.).
 
 
 
-## retour sur les opérateurs
+## Retour sur les opérateurs
 Il est important de bien comprendre le fonctionnement des opérateurs et des instructions conditionnelles, car cela représente 80% de votre futur travail de développeur.
 
 **Les opérateurs logiques**
@@ -132,12 +133,15 @@ Il est important de bien comprendre le fonctionnement des opérateurs et des ins
 | a < b ^ b > c| a est inférieure à b (OU exclusif) b et supérieure à c |
 | not(True) | le contraire de True |
 
-le **XOR** (ou exclusif) signie l'un ou l'autre mais pas les deux
+Le **XOR** (ou exclusif) signifie l'un ou l'autre, mais pas les deux
 
-à cela, on peut rajouter quelques opérateurs sur les chaînes de caractère.
+À cela, on peut rajouter quelques opérateurs sur les chaînes de caractère :
+
+| Instruction python | Signification |
+| ------ | ----------- |
 | "a" == "A" | vaut False |
 | "on" in "bon" | Vaut True |
 | "on" not in "bon" | Vaut False |
 
 
-l'opérateur **in** permet de tester l'appartenance d'une chaine à une autre (si celle-ci est présente dans l'autre)
+L'opérateur **in** permet de tester l'appartenance d'une chaîne à une autre (si celle-ci est présente dans l'autre)
