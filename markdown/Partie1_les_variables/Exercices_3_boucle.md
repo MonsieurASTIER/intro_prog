@@ -1,4 +1,4 @@
-#Mise en pratique
+# Mise en pratique
 
 
 ```python
@@ -12,6 +12,7 @@ for i in range(10):
 -[] 0,2,4,8,16,32,64,128,256,512
 -[] affiche rien
 
+---
 
 ```python
 a=0
@@ -26,6 +27,7 @@ for i in range(10):
 -[] 0,2,4,8,16,32,64,128,256,512
 -[] affiche rien
 
+***
 
 ```python
 a=0
@@ -41,13 +43,14 @@ for i in range(5):
 -[] affiche rien
 
 
+
 ```python
 a=0
 for i in range(5):
   for j in range(i):
     print(i+j)
 ```
-?[3. Qu'affiche le programme ci-dessus]
+?[4. Qu'affiche le programme ci-dessus]
 -[X] 1,2,3,3,4,5,4,5,6,7
 -[] 0,1,2,3,4,1,2,3,4,5,2,3,4,5,6,3,4,5,6,7,4,5,6,7,8
 -[] 0,0,1,0,1,2,0,1,2,3,0,1,2,3,4
@@ -61,7 +64,7 @@ while a < 10:
   a+=1
 print(a)
 ```
-?[3. Qu'affiche le programme ci-dessus]
+?[5. Qu'affiche le programme ci-dessus]
 -[] 0,1,2,3,4,5,6,7,8,9
 -[] 0,1,2,3,4,5,6,7,8,9,10
 -[X] 10
@@ -75,7 +78,7 @@ while a < b:
   b-=1
 print(a)
 ```
-?[3. Qu'affiche le programme ci-dessus]
+?[6. Qu'affiche le programme ci-dessus]
 -[] 20
 -[] 0
 -[X] 10
@@ -84,12 +87,12 @@ print(a)
 
 ```python
 a = 0
-while 1=1:
+while 1==1:
   a+=1
 
 print(a)
 ```
-?[3. Qu'affiche le programme ci-dessus]
+?[7. Qu'affiche le programme ci-dessus]
 -[] 20
 -[] 0
 -[] 10
@@ -101,7 +104,7 @@ while a<10:
   b = a +1  
 print(a)
 ```
-?[3. Qu'affiche le programme ci-dessus]
+?[8. Qu'affiche le programme ci-dessus]
 -[] 20
 -[] 0
 -[] 10
