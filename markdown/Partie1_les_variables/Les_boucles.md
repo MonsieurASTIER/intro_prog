@@ -27,6 +27,7 @@ for i in range(10):
   print(i)
 ```
 Ici, nous affichons donc dans l'ordre 0,1,2,3,4,5,6,7,8,9
+
 _les plus attentifs noterons que range(0,10) est devenu range(10)_
 _en python la fonction range commence par défaut à 0 il n'est donc pas obligatoire de le préciser_
 
@@ -60,7 +61,7 @@ Vous l'aurez compris, les deux premières valeurs de range correspondent à vale
 
 ## boucle non bornée (while)
 
-La seconde méthode permettant de répéter un bloc d'instruction est la boucle while.
+La seconde méthode permettant de répéter un bloc d'instruction, est la boucle **while**.
 Cette méthode permet d'exécuter un bloc d'instruction **tant que** une expression booléenne est vrai
 
 ```python

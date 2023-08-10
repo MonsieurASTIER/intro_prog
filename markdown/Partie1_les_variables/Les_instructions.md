@@ -1,127 +1,127 @@
-Jusqu'a maintenant nous nous somme contenter de faire des calcule mathématiques simples, mais nous n'avons pas encore fait d'algorithmie.
-Or, pour résoudre un problème informatique, il faut toujours effectuer une série d'actions dans un certain ordre. La description structurée de ces actions et de l'ordre dans lequel il convient de les effectuer s'appelle un algorithme
-Nous allons donc ici apprendre à contrôlez le déroulement de votre programme avec des conditions
+Jusqu'à maintenant, nous nous sommes contentés de faire des calculs mathématiques simples, mais nous n'avons pas encore fait d'algorithmie.
+Or, pour résoudre un problème informatique, il faut toujours effectuer une série d'actions dans un certain ordre. La description structurée de ces actions et de l'ordre dans lequel il convient de les effectuer s'appelle un algorithme.
+Nous allons donc ici apprendre à contrôler le déroulement de votre programme avec des conditions.
 
 # Le déroulement d'un programme
 
 Le déroulement du programme est l’ordre dans lequel les lignes de code sont exécutées. Certaines lignes seront lues une fois seulement, d’autres plusieurs fois. D’autres encore pourraient être complètement ignorées, tout dépend de la façon dont vous les avez codées.
 
 Les instructions conditionnelles sont un moyen de contrôler la logique et le déroulement de votre code avec des conditions.
-Elles sont les briques de bases d'un programme, et permettent en fonction du résultat de l'evaluation d'une expréssion booléennes, d'executer une certaine portion de code plutot qu'une autre.
+Elles sont les briques de bases d'un programme, et permettent, en fonction du résultat de l'évaluation d'une expression booléenne, d'exécuter une certaine portion de code plutôt qu'une autre.
 
 ## Les instructions conditionnelles
 
- ![instruction](../../img/bloc_condition.png)
+![instruction](../../img/bloc_condition.png)
 
-Vous en avez déjà tous fait sans le savoir. Il s'agit simplement de prendre une décision en fonction de paramétre:
-- Si on à le temps alors j'irai faire du sport
-- Si j'ai des bonnes notes alors j'aurai une SWITCH pour noel
-- Si je fait les exercices du cours alors j'arriverait facilement à coder sinon je vais galerer
+Vous en avez déjà tous fait sans le savoir. Il s'agit simplement de prendre une décision en fonction de paramètre :
+- Si j'ai le temps alors j'irai faire du sport
+- Si j'ai des bonnes notes alors j'aurai une SWITCH pour noël
+- Si je fais les exercices du cours alors j'arriverai facilement à coder sinon je vais galérer
 
-Tout ces phrases on une chose en commun: une instruction conditionnelles **SI**
+Toutes ces phrases ont une chose en commun : une instruction conditionnelle **SI**
 
-La condtionnelle est une structure qui permet d'exécuter du code selon qu'une condition est remplie ou non.
-Elle sera de la forme:
-
-```python
-if condition:
-  bloc A
-```
-Le bloc A ne sera exécuter que si la condition est remplie:
-
-Petit point syntaxe:
-Python est très sensible à l'indentation (le nombre de caractére espace et retour à la ligne)
-une Séquences d'instructions, toutes indentées du même nombre d'espaces est appelée un bloc.C'est ainsi que le langage python différencie la séquence d'instruction à éffectuer quand la condition est remplie.
-
-```python
-if condition :
-  blocA
-  blocA
-  blocA
-blocB
-blocB
-
-```
-Analyser bien la syntaxe: la condition commence par un l'instruction **IF** suivie de la condition suivie de **:** puis d'un retours à la lignes
-le bloc commence par une **indentation**
+La conditionnelle est une structure qui permet d'exécuter du code selon qu'une condition est remplie ou non.
+Elle sera de la forme :
 
 ```python
 if condition:
 bloc A
 ```
-Ceci renveras une erreur de syntaxe (syntax error) (retenez ce message d'erreur vous le verez souvent ;)
+Le bloc A ne sera exécuté que si la condition est remplie :
+
+Petit point syntaxe :
+Python est très sensible à l'indentation. (le nombre de caractère espace et retour à la ligne)
+Une séquence d'instructions, toutes indentées du même nombre d'espaces, est appelée un bloc. C'est ainsi que le langage python différencie la séquence d'instruction à effectuer quand la condition est remplie.
+
+```python
+if condition :
+blocA
+blocA
+blocA
+blocB
+blocB
+
+```
+Analyser bien la syntaxe : la condition commence par l'instruction **IF** suivie de la _condition_ suivie de **:** puis d'un retour à la ligne.
+Le bloc commence par une **indentation**.
+
+```python
+if condition:
+bloc A
+```
+Ceci renverra une erreur de syntaxe. (syntax error) (retenez ce message d'erreur vous le verrez souvent ;)
 
 
 
 ```python runnable
 if 1+1 == 2 :
-  print("c'est vrai")
+print("c'est vrai")
 
 if 1+1 > 2 :
-    print("c'est faux donc se message ne s'affichera pas")
+print("c'est faux donc ce message ne s'affichera pas.")
 ```
 
-A cela on peut rajouter bloc **else** qui sera exécuter si la condition **if** n'est pas remplie
+À cela, on peut rajouter le bloc **else** qui sera exécuté si la condition **if** n'est pas remplie.
 
 ```python
 if condition:
-  bloc A
+bloc A
 else:
-  bloc B
+bloc B
 ```
-dans cette extrait soit le code A sera exécuter soit le code B **mais jamais les deux**
+Dans cet extrait soit le code A sera exécuté, soit le code B **mais jamais les deux**
 else se traduit par **sinon**:
-soit j'execute le blocA sinon j'exécute le bloc B.
+soit j'exécute le bloc A sinon j'exécute le bloc B.
 
 ```python runnable
 if 1+1 > 2 :
-    print("c'est faux donc se message ne s'affichera pas")
+print("c'est faux donc se message ne s'affichera pas")
 else:
-    print("du coup c'est ce message qui s'affiche")
+print("du coup, c'est ce message qui s'affiche.")
 ```
 
-plusieur tests peuvent être enchainé grace au mot clés **elif** (qui est l'abrevation de else if)
+Plusieurs tests peuvent être enchaînés grâce au mot-clé **elif** (qui est l'abréviation de else if)
 
 ```python
 if condition A:
-  bloc A
+bloc A
 elif conditionB:
-  bloc B
+bloc B
 elif conditionC:
-  bloc C
+bloc C
 else:
-  bloc D
+bloc D
 ```
 
-Attention cependant à l'ordre des elif car **un seul bloc sera exécuter**: celui de la premiere condition remplie.
+Attention cependant à l'ordre des elif, car **un seul bloc sera exécuter**: celui de la première condition remplie.
 
-## condition imbriqué:
-Ce n'est pas bien compliqué il s'agit simplement d'une instructions conditionnelles dans une autre instructions conditionnelles:
-Voyez plutôt:
+## condition imbriquée :
+Ce n'est pas bien compliqué, il s'agit simplement d'une instruction conditionnelle dans une autre instruction conditionnelle :
+Voyez plutôt :
 ```python
 if condition A:
-  if conditionAA:
-    bloc AA
-  else:
-    bloc AB  
+if conditionAA:
+bloc AA
 else:
-  bloc B
+bloc AB
+else:
+bloc B
 ```
 
-ici le bloc AA sera executé si la condition A est rempli et la condition AA
-Si la condition A est rempli mais pas la condition AA alors le bloc AB sera exécuter.
-Si la condition A n'est pas rempli alors le bloc B est exécuter (la condition AA n'est même pas tester).
+Ici, le bloc AA sera exécuté si la condition A est remplie et la condition AA
+Si la condition A est remplie, mais pas la condition AA alors le bloc AB sera exécuté.
+Si la condition A n'est pas rempli, alors le bloc B est exécuté (la condition AA n'est même pas testée.).
 
 
 
 ## retour sur les opérateurs
- Il est important de bien comprendre le fonctionnement des opérateurs et des instruction conditionnelles car cela représente 80% de votre future travail de développeur
+Il est important de bien comprendre le fonctionnement des opérateurs et des instructions conditionnelles, car cela représente 80% de votre futur travail de développeur.
 
- **Les opérateurs logiques**
+**Les opérateurs logiques**
 
- | Instruction python | Signification |
+| Instruction python | Signification |
 | ------ | ----------- |
-| a == b   | a est égal à b |
+| a == b | a est égal à b |
 | a > b | a est strictement supérieure à b |
 | a >= b | a est supérieure ou égale à b |
 | a != b | a est différent de b |
@@ -132,17 +132,10 @@ Si la condition A n'est pas rempli alors le bloc B est exécuter (la condition A
 
 le **XOR** (ou exclusif) signie l'un ou l'autre mais pas les deux
 
-à cela on peut rajoute quelques opérateur sur les chaines de caractére
-| "a" == "A"   | vaut False |
+à cela, on peut rajouter quelques opérateurs sur les chaînes de caractère.
+| "a" == "A" | vaut False |
 | "on" in "bon" | Vaut True |
 | "on" not in "bon" | Vaut False |
 
 
- l'opérateur **in** permet de teste l'appartenance d'une chaine à une autre (si celle-ci est présente dans l'autre)
-
-
-
-
-
-
-faire des exercices sur les instruction
+l'opérateur **in** permet de tester l'appartenance d'une chaine à une autre (si celle-ci est présente dans l'autre)
