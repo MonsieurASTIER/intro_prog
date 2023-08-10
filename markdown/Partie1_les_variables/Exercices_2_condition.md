@@ -8,7 +8,7 @@ a=10
 b,c = 8,2
 ```
 
-?[1. l'instruction a<8 renveras:]
+[1. l'instruction a<8 renveras:]
 - [X] True
 - [] False
 
