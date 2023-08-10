@@ -12,8 +12,8 @@ b,c = 8,2
 - [] True
 - [X] False
 
-
-?[2. l'instruction a- [] True
+?[2. l'instruction a<b renverras : ]
+- [] True
 - [X] False
 
 ?[3. l'instruction a>b and a>c renverras :]
@@ -249,6 +249,7 @@ Réécrire le programme de la question 12 qui renvoie la plus grande valeur et s
 Récrire le programme du calcul du pain, mais désormais l'utilisateur devra saisir le nombre de pains acheté ainsi que le type de pain.
 
 _Astuce vous pouvez afficher un choix multiple à l'utilisateur en proposant une saisie précise :_
+
 _1.Pour une baguette taper 1_
 _2.Pour des croissants taper 2..._
 
