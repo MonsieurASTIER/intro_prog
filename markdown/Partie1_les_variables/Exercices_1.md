@@ -11,7 +11,7 @@ La plupart de vos premiers programmes ne disposeront pas d'interface graphique, 
 Pour afficher du texte dans la console il existe une fonction simple : print()
 
 
-```
+```python
 
 #Afficher un texte
 print("Ce que je souhaite afficher")
@@ -29,7 +29,7 @@ C'est-à-dire de rajouter des commentaires qui ne seront pas lus par l'ordinateu
 Ceci se fait avec le caractère **#**
 
 
-```
+```python
 # ceci n'est pas interpréter par l'ordinateur
 ```
 
@@ -44,7 +44,7 @@ Une dernière fonction qui vous sera utile : input()
 Cette fonction permet de récupérer une saisie clavier
 
 
-```
+```python
 A = input()
 #si utilisateur saisie "abc" alors la variable A="abc"
 ```
@@ -53,7 +53,7 @@ A = input()
 Il est possible de rajouter un affichage à votre commande input("afficher le message")
 
 
-```
+```python
 
 print("Message affiché")
 A = input()

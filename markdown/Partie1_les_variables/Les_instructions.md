@@ -23,7 +23,7 @@ Tout ces phrases on une chose en commun: une instruction conditionnelles **SI**
 La condtionnelle est une structure qui permet d'exécuter du code selon qu'une condition est remplie ou non.
 Elle sera de la forme:
 
-```
+```python
 if condition:
   bloc A
 ```
@@ -33,7 +33,7 @@ Petit point syntaxe:
 Python est très sensible à l'indentation (le nombre de caractére espace et retour à la ligne)
 une Séquences d'instructions, toutes indentées du même nombre d'espaces est appelée un bloc.C'est ainsi que le langage python différencie la séquence d'instruction à éffectuer quand la condition est remplie.
 
-```
+```python
 if condition :
   blocA
   blocA
@@ -45,7 +45,7 @@ blocB
 Analyser bien la syntaxe: la condition commence par un l'instruction **IF** suivie de la condition suivie de **:** puis d'un retours à la lignes
 le bloc commence par une **indentation**
 
-```
+```python
 if condition:
 bloc A
 ```
@@ -63,7 +63,7 @@ if 1+1 > 2 :
 
 A cela on peut rajouter bloc **else** qui sera exécuter si la condition **if** n'est pas remplie
 
-```
+```python
 if condition:
   bloc A
 else:
@@ -82,7 +82,7 @@ else:
 
 plusieur tests peuvent être enchainé grace au mot clés **elif** (qui est l'abrevation de else if)
 
-```
+```python
 if condition A:
   bloc A
 elif conditionB:
@@ -98,7 +98,7 @@ Attention cependant à l'ordre des elif car **un seul bloc sera exécuter**: cel
 ## condition imbriqué:
 Ce n'est pas bien compliqué il s'agit simplement d'une instructions conditionnelles dans une autre instructions conditionnelles:
 Voyez plutôt:
-```
+```python
 if condition A:
   if conditionAA:
     bloc AA

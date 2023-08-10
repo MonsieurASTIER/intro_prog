@@ -74,7 +74,7 @@ Si on change de type plus tard (en affectant un autre type à la variable), l'in
 C'est bien pratique,il n'y à donc pas besoin de s'occuper des type l'interpréteur s'occupe de tout!
 Oui c'est vrai, mais il existe des situations ou nous avons besoin que nos variables soit d'un type précis, ou bien de convertir une variable d'un type à une autre.
 Exemple:
-```
+```python
 variableString = "ma chaine 10"
 valeurExtraite = variableString[-2:] #ici j'extrait les 2 dernier caractere de la chaine: 10
 ```

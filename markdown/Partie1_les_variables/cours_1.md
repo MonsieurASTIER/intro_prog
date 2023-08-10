@@ -26,7 +26,7 @@ Elle nous permet de stocker une donnée et d'y attribuer une étiquette.
 
 En python elle se déclare ainsi:
 
-```
+```python
 Ma_variable = 10
 #Attention de ne pas confondre = et == l'opérateur de comparaison
 ```
@@ -59,7 +59,7 @@ Pour l'instant et pour cette exemple c'est pas faux. Mais très vite nous allons
 #### Déclaration multiple
 Déclarer des variables est quelques chose de très fréquent dans un programme. C'est pourquoi en python il existe différentes syntaxe pour gagner du temps.
 
-```
+```python
 A = 10
 B = 4
 C = 25600
@@ -103,7 +103,7 @@ L’instruction ```A*2```  par ```10*2``` , ce qui donnera l'instruction une foi
 
 <div class="alert alert-block alert-warning">
 Modifier une variable est une chose très fréquente. Notamment l'incrémentation d'un indice, c'est pourquoi il existe une syntaxe un peu plus rapide:
-```
+```python
 A += 1
 #Équivaux à
 A = A +1
@@ -120,7 +120,7 @@ print(A)
 
 ## Les opérateurs:
 On manipule les valeurs et les variables qui les référencent, en les combinant avec des opérateurs pour former des expressions. Exemple :
-```
+```python
 a, b = 7.3, 12
 y = 3*a + b/5  
 ```
