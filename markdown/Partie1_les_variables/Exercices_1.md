@@ -88,7 +88,7 @@ Le programme devra donc demander à l'utilisateur combien de baguette, il souhai
 + Circonférence **t** de la terre
 + Population **P** de la terre
 
-2.À partir des valeurs précédentes, écrire les expressions qui calculent les valeurs suivantes (attention aux unités !)
+2. À partir des valeurs précédentes, écrire les expressions qui calculent les valeurs suivantes (attention aux unités !)
 
 + Temps mis par la lumière du soleil pour atteindre la terre
 + Vitesse moyenne de la terre autour du Soleil, en supposant que la trajectoire soit circulaire
@@ -101,11 +101,13 @@ Afficher les différentes réponses de manière lisible dans la console (Exemple
 **Programme 5:**
 
 Dans le bourgeois Gentilhomme, le maître de philosophie dit :
-On les peut mettre premièrement comme vous avez dit : "Belle marquise, vos beaux yeux me font mourir d'amour."
-ou bien "D'amour mourir me font, belle Marquise, vos beaux yeux"
-ou encore : "Vos yeux beaux d'amour me font, belle marquise,mourir."
-ou "Mourir, vos beaux yeux, belle marquise, d'amour me font"
-pour finir, "Me font vos yeux beaux mourir, belle marquise, d'amour"
+
+>On les peut mettre premièrement comme vous avez dit : "Belle marquise, vos beaux yeux me font mourir d'amour."
+>ou bien "D'amour mourir me font, belle Marquise, vos beaux yeux"
+>ou encore : "Vos yeux beaux d'amour me font, belle marquise,mourir."
+>ou "Mourir, vos beaux yeux, belle marquise, d'amour me font"
+>pour finir, "Me font vos yeux beaux mourir, belle marquise, d'amour"
+
 Définir différentes variables contenant les morceaux de la phrase "belle marquise...", de telle sorte que l'on
 puisse afficher, avec la fonction print et l'opérateur + des chaînes de caractère correspondant aux différentes variantes énoncées. (on ignore la case)
 Afficher ces différentes variantes
