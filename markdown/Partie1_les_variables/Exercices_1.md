@@ -47,10 +47,9 @@ A = input() #si utilisateur saisie "abc" alors la variable A="abc"
 
 Il est possible de rajouter un affichage à votre commande input("afficher le message")
 
-```python runnable
+```python
 print("Message affiché")
 A = input()
-print(A)
 # est équivalant à
 A = input("Message affiché")
 ```

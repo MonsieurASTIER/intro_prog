@@ -29,8 +29,8 @@ if condition:
 ```
 Le bloc A ne sera exécuté que si la condition est remplie :
 
-Petit point syntaxe :
-Python est très sensible à l'indentation. (le nombre de caractère espace et retour à la ligne)
+**Petit point syntaxe :**
+Python est très sensible à l'indentation (le nombre de caractère espace et retour à la ligne)
 Une séquence d'instructions, toutes indentées du même nombre d'espaces, est appelée un bloc. C'est ainsi que le langage python différencie la séquence d'instruction à effectuer quand la condition est remplie.
 
 ```python
@@ -49,7 +49,7 @@ Le bloc commence par une **indentation**.
 if condition:
   bloc A
 ```
-Ceci renverra une erreur de syntaxe. (syntax error) (retenez ce message d'erreur vous le verrez souvent ;)
+Ceci renverra une erreur de syntaxe. (_syntax error_ ou _indentationError_) (retenez ces messages d'erreur vous les verrez souvent ;)
 
 
 
@@ -61,6 +61,8 @@ if 1+1 > 2 :
 print("c'est faux donc ce message ne s'affichera pas.")
 ```
 
+**
+
 À cela, on peut rajouter le bloc **else** qui sera exécuté si la condition **if** n'est pas remplie.
 
 ```python
@@ -70,14 +72,14 @@ else:
   bloc B
 ```
 Dans cet extrait soit le code A sera exécuté, soit le code B **mais jamais les deux**
-else se traduit par **sinon**:
+_else_ se traduit par _sinon_:
 soit j'exécute le bloc A sinon j'exécute le bloc B.
 
 ```python runnable
 if 1+1 > 2 :
-print("c'est faux donc se message ne s'affichera pas")
+ print("c'est faux donc se message ne s'affichera pas")
 else:
-print("du coup, c'est ce message qui s'affiche.")
+ print("du coup, c'est ce message qui s'affiche.")
 ```
 
 Plusieurs tests peuvent être enchaînés grâce au mot-clé **elif** (qui est l'abréviation de else if)
