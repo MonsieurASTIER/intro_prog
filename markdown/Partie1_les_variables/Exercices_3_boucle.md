@@ -1,6 +1,6 @@
 # Mise en pratique
 
-__teste de tesxte ne italite__
+_teste de tesxte ne italite_
 
 ```python
 for i in range(10):
@@ -29,7 +29,8 @@ for i in range(10):
 -[] 0,2,4,8,16,32,64,128,256,512
 -[] affiche rien
 
-***
+---
+---
 
 ```python
 a=0
@@ -44,7 +45,8 @@ for i in range(5):
 -[] 0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20
 -[] affiche rien
 
-
+---
+---
 
 ```python
 a=0
@@ -58,7 +60,8 @@ for i in range(5):
 -[] 0,0,1,0,1,2,0,1,2,3,0,1,2,3,4
 -[] affiche rien
 
-
+---
+---
 
 ```python
 a=0
@@ -72,7 +75,8 @@ print(a)
 -[X] 10
 -[] boucle infinie
 
-
+---
+---
 ```python
 a,b = 0,20
 while a < b:
@@ -86,9 +90,9 @@ print(a)
 -[X] 10
 -[] boucle infinie
 
-a,b = 0,0
-while a<10:
-  b = a +1  
+---
+---
+
 ```python
 a = 0
 while 1==1:
@@ -101,6 +105,9 @@ print(a)
 -[] 0
 -[] 10
 -[X] boucle infinie
+
+---
+---
 
 ```python
 a,b = 0,0
