@@ -128,9 +128,9 @@ Ecrire sur votre IDE les différents programmes:
 
 **programme 1:**
 
-**a.**Ecrire une boucle bornée (For) qui affiche les nombres pairs entre 2 et 20
-**b.**Ecrire une boucle non bornée(while) qui fasse la même choses
-**C.**Même question pour afficher les nombre paire entre 20 et 2 par ordre décroissant.
+1. Ecrire une boucle bornée (For) qui affiche les nombres pairs entre 2 et 20
+2. Ecrire une boucle non bornée(while) qui fasse la même choses
+3. Même question pour afficher les nombre paire entre 20 et 2 par ordre décroissant.
 
 **Programme 2:**
 
@@ -153,34 +153,29 @@ Ecrire un programme qui renvoie la valeur de U10
 
 
 **programme 5:**
-**a**
-Ecrire un programme qui indique si une année est bissextile.Une année est bissextile si elle est divisible par 4.cependant les siécles ne sont pas bissextiles sauf
+1. Ecrire un programme qui indique si une année est bissextile.Une année est bissextile si elle est divisible par 4.cependant les siécles ne sont pas bissextiles sauf
 les multiples de 400.
-**b**
-Compléter le programme pour calculer le nombre de jours du mois m, m étant un entier compris entre 1 et 12.De janvier à juillet les mois impaires ont 31 jours,les autres 30.de Aout à décembre c'est l'inverse.
+2. Compléter le programme pour calculer le nombre de jours du mois m, m étant un entier compris entre 1 et 12.De janvier à juillet les mois impaires ont 31 jours,les autres 30.de Aout à décembre c'est l'inverse.
 De pus le mois de février à 29 ou 28jours selon que léannée est bissextile ou non.
 
 **programmes 6:**
 
-**a.**Ecrire un programme qui étant donnée un nombre entre 2 et 12 affiche toutes les combinaisons possibles permettant d'obtenir ce nombre avec deux dés.
-**b.** Étendre le programme ci dessus pour afficher,pour chaque nombre entre 2 et 12,toutes les combinaisons possibles permettant d'obtenir ce nombre avec deux dés.
-**c.**Modifier le programme pour afficher seulement le nombre de combinaisons possibles pour chaque total, au lieu des combinaisons elles-mêmes
+1. Ecrire un programme qui étant donnée un nombre entre 2 et 12 affiche toutes les combinaisons possibles permettant d'obtenir ce nombre avec deux dés.
+2. Étendre le programme ci dessus pour afficher,pour chaque nombre entre 2 et 12,toutes les combinaisons possibles permettant d'obtenir ce nombre avec deux dés.
+3. Modifier le programme pour afficher seulement le nombre de combinaisons possibles pour chaque total, au lieu des combinaisons elles-mêmes
 
 **programme 7**
 
 On veut calculer la monnaie à rendre sur un paiement en euros(sans les cents).
 La monnaie est rendue avec des pieces et des billets de 1€ ,2€ 5€ 10€ et 50€
-**a.**
-Ecrire un programme qui calcule et affiche le nmbre de piece et billets de chaque valeur à rendre
+1. Ecrire un programme qui calcule et affiche le nmbre de piece et billets de chaque valeur à rendre
 pour les variables
 prix=42
 paiement=50
 
 tester votre programme avec différentes valeurs de variables.
 
-**b.**
-
-maintenant le contenu de la caisse est représenté par un ensemble de variable correspondant au nombre de pièces et de billets de chaque valeur:
+2. maintenant le contenu de la caisse est représenté par un ensemble de variable correspondant au nombre de pièces et de billets de chaque valeur:
 ```python
   nb_1_euros = 15 #nombre de piece de 1euros present dans la caisses
   nb_2_euros = 4
