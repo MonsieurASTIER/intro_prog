@@ -3,12 +3,12 @@ Pour rappel ces QCM ne sont pas notés, mais sert à auto-évaluer votre compré
 
 
 Les variables a,b,c sont définie comme ci-dessous
-```
+```python
 a=10
 b,c = 8,2
 ```
 
-[1. l'instruction a<8 renveras:]
+?[1. l'instruction a<8 renveras:]
 - [X] True
 - [] False
 
