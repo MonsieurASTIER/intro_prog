@@ -1,6 +1,5 @@
 # Mise en pratique
 
-_teste de tesxte ne italite_
 
 ```python
 for i in range(10):
@@ -80,7 +79,9 @@ print(a)
 ```python
 a,b = 0,20
 while a < b:
-  a+=1
+  a+=1a,b = 0,0
+while a<10:
+  b = a +1  
   b-=1
 print(a)
 ```
@@ -126,28 +127,32 @@ print(a)
 Ecrire sur votre IDE les différents programmes:
 
 **programme 1:**
+
 **a.**Ecrire une boucle bornée (For) qui affiche les nombres pairs entre 2 et 20
 **b.**Ecrire une boucle non bornée(while) qui fasse la même choses
-**3.**Même question pour afficher les nombre paire entre 20 et 2 par ordre décroissant.
+**C.**Même question pour afficher les nombre paire entre 20 et 2 par ordre décroissant.
 
-**Programme 1:**
+**Programme 2:**
+
 Ecrire un programme qui affiche les 10 premiers nombre de la suite de fibonnachi (google it)
 
-**programme 2:**
+**programme 3:**
+
 Ecrire un programme qui affiche le nombre de seconde qui reste avant la fin de la journée.
 L'heure sera définie par un flottant dont la partie entiere définira les heures, et la partie décimales les minutes. ainsi 8.15 correspond à 8h15
 Tester votre programmes avec les variables:
-heure_1 = 12.00
-heure_2 = 14.30
-heure_3 = 0.0
-heure_4 = 23.12  
+>heure_1 = 12.00
+>heure_2 = 14.30
+>heure_3 = 0.0
+>heure_4 = 23.12  
 
-**programme 3:**
-Soit la suite mathématique u0 = 0 et Un+1 = 2Un
+**programme 4:**
+Soit la suite mathé
+matique u0 = 0 et Un+1 = 2Un
 Ecrire un programme qui renvoie la valeur de U10
 
 
-**programme 4:**
+**programme 5:**
 **a**
 Ecrire un programme qui indique si une année est bissextile.Une année est bissextile si elle est divisible par 4.cependant les siécles ne sont pas bissextiles sauf
 les multiples de 400.
@@ -155,12 +160,14 @@ les multiples de 400.
 Compléter le programme pour calculer le nombre de jours du mois m, m étant un entier compris entre 1 et 12.De janvier à juillet les mois impaires ont 31 jours,les autres 30.de Aout à décembre c'est l'inverse.
 De pus le mois de février à 29 ou 28jours selon que léannée est bissextile ou non.
 
-**programmes 5:**
+**programmes 6:**
+
 **a.**Ecrire un programme qui étant donnée un nombre entre 2 et 12 affiche toutes les combinaisons possibles permettant d'obtenir ce nombre avec deux dés.
 **b.** Étendre le programme ci dessus pour afficher,pour chaque nombre entre 2 et 12,toutes les combinaisons possibles permettant d'obtenir ce nombre avec deux dés.
 **c.**Modifier le programme pour afficher seulement le nombre de combinaisons possibles pour chaque total, au lieu des combinaisons elles-mêmes
 
-**programme x**
+**programme 7**
+
 On veut calculer la monnaie à rendre sur un paiement en euros(sans les cents).
 La monnaie est rendue avec des pieces et des billets de 1€ ,2€ 5€ 10€ et 50€
 **a.**
@@ -171,7 +178,9 @@ paiement=50
 
 tester votre programme avec différentes valeurs de variables.
 
-**b.** maintenant le contenu de la caisse est représenté par un ensemble de variable correspondant au nombre de pièces et de billets de chaque valeur:
+**b.**
+
+maintenant le contenu de la caisse est représenté par un ensemble de variable correspondant au nombre de pièces et de billets de chaque valeur:
 ```python
   nb_1_euros = 15 #nombre de piece de 1euros present dans la caisses
   nb_2_euros = 4
