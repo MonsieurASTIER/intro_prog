@@ -144,7 +144,7 @@ Tester votre programmes avec les variables:
 >heure_1 = 12.00
 >heure_2 = 14.30
 >heure_3 = 0.0
->heure_4 = 23.12  
+>heure_4 = 23.12   
 
 **programme 4:**
 Soit la suite mathé
