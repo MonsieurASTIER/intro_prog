@@ -88,6 +88,7 @@ Le programme devra donc demander à l'utilisateur combien de baguette, il souhai
 + Circonférence **t** de la terre
 + Population **P** de la terre
 
+
 2. À partir des valeurs précédentes, écrire les expressions qui calculent les valeurs suivantes (attention aux unités !)
 
 + Temps mis par la lumière du soleil pour atteindre la terre

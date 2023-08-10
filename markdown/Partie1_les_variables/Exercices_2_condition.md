@@ -1,34 +1,35 @@
 # Validons nos nouvelles connaissances
-Pour rappel ces QCM ne sont pas notés, mais sert à auto-évaluer votre compréhension du cours. Prenez donc le temps de répondre comme il faut au questions et de relire le cours si besoin.
+Pour rappel, ces QCM ne sont pas notés, mais servent à autoévaluer votre compréhension du cours. Prenez donc le temps de répondre comme il faut aux questions et de relire le cours si besoin.
 
 
-Les variables a,b,c sont définie comme ci-dessous
+Les variables a,b,c sont défini comme ci-dessous.
 ```python
 a=10
 b,c = 8,2
 ```
 
-?[1. l'instruction a<8 renveras:]
+?[1. l'instruction a<8 renverras :]
 - [] True
 - [X] False
 
 
-?[2. l'instruction a<b renveras:]
-- [] True
+?[2. l'instruction a- [] True
 - [X] False
 
-?[3. l'instruction a>b and a>c renveras:]
+?[3. l'instruction a>b and a>c renverras :]
 - [X] True
 - [] False
 
-?[4. l'instruction a<b and b>c renveras:]
+?[4. l'instruction ac renverras :]
 - [] True
 - [x] False
 
-?[5. l'instruction True and False renveras:]
+?[5. l'instruction True and False renverras :]
 - [] True
 - [X] False
 
+***
+***
 
 ```python
 a,b,c = 10,8,2
@@ -47,7 +48,8 @@ else:
 -[] "C"
 -[] affiche rien
 
-
+***
+***
 
 ```python
 a,b,c = 10,8,2
@@ -66,6 +68,8 @@ else:
 -[] "C"
 -[] affiche rien
 
+***
+***
 
 ```python
 a,b,c = 10,8,2
@@ -83,6 +87,9 @@ elif a<c:
 -[] "B"
 -[] "C"
 -[x] affiche rien
+
+***
+***
 
 ```python
 a,b,c = 10,8,2
@@ -107,6 +114,8 @@ else:
 -[] il affiche le nom d'une variable aléatoire
 -[X] Ce code ne fait rien de spécial
 
+***
+***
 
 ```python
 a,b,c = 10,8,2
@@ -135,6 +144,9 @@ else:
 -[] il affiche le nom de la variable contenant la plus petite valeur
 -[] il affiche le nom d'une variable aléatoire
 -[] Ce code ne fait rien de spécial
+
+***
+***
 
 ```python
 a="A"
@@ -171,6 +183,8 @@ else:
 -[] "C"
 -[] affiche rien
 
+***
+***
 
 ```python
 a,b,c = 10,8,2
@@ -186,7 +200,8 @@ else:
 -[] "C"
 -[] affiche rien
 
-
+***
+***
 
 ```python
 a,b,c = 10,8,2
@@ -201,6 +216,9 @@ else:
 -[] "B"
 -[] "C"
 -[] affiche rien
+
+***
+***
 
 ```python
 if ((a < b) ^ (a > c)) and ( a+2 > b-2):
@@ -218,27 +236,26 @@ else:
 
 
 
-
-# Programme:
-Ecrire sur votre IDE les différents programmes:
+# Programme :
+Écrire sur votre IDE les différents programmes :
 
 
 **Programme 1:**
-Le programme de la question 12 est mal ecrit, certaine condition sont redondante, et il ne prend pas en compte tout les cas de figures (égalité ect)
-Réecrire le programme de la question 12 qui renvoie la plus grnade valeur et son nom de variable. En cas d'égalité afficher une deux des variables.
+Le programme de la question 12 est mal écrit, certaines conditions sont redondantes, et il ne prend pas en compte tous les cas de figure. (égalité ect).
+Réécrire le programme de la question 12 qui renvoie la plus grande valeur et son nom de variable. En cas d'égalité, afficher une des deux variables égales.
 
 
 **Programme 2:**
-Récrire le programme du calcule du pain, mais désormais l'utilisateur devra saisir le nombre de pain acheter ainsi que le type de pain.
+Récrire le programme du calcul du pain, mais désormais l'utilisateur devra saisir le nombre de pains acheté ainsi que le type de pain.
 
-__Astuce vous pouvez afficher un choix multiple à l'utilisateur en proposant une saisie précise:__
-__1.Pour une baguette taper 1__
-__2.Pour des croissant taper 2...__
+_Astuce vous pouvez afficher un choix multiple à l'utilisateur en proposant une saisie précise :_
+_1.Pour une baguette taper 1_
+_2.Pour des croissants taper 2..._
 
 
 **Programme 3:**
-Ecrire un programme qui dit si le nombre saisie au clavier est paire ou impaire
+Écrire un programme qui dit si le nombre saisi au clavier est paire ou impaire
 
 **Programme 4:**
-Ecrire un programme qui renvoie votre interprétation de votre IMC(google it).
-Votre programme prendrait en entrée une taille et un poids (attention au unité) et renvera une phrases contenant l'IMC et son interprétation
+Écrire un programme qui renvoie votre interprétation de votre IMC (google it).
+Votre programme prendrait en entrée une taille et un poids (attention aux unités) et renverra une phrase contenant l'IMC et son interprétation.
