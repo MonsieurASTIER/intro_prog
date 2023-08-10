@@ -9,8 +9,8 @@ b,c = 8,2
 ```
 
 ?[1. l'instruction a<8 renveras:]
-- [X] True
-- [] False
+- [] True
+- [X] False
 
 
 ?[2. l'instruction a<b renveras:]
@@ -22,15 +22,15 @@ b,c = 8,2
 - [] False
 
 ?[4. l'instruction a<b and b>c renveras:]
-- [X] True
-- [] False
+- [] True
+- [x] False
 
 ?[5. l'instruction True and False renveras:]
 - [] True
 - [X] False
 
 
-```
+```python
 a,b,c = 10,8,2
 if a>b:
   if a>c:
@@ -43,13 +43,13 @@ else:
 
 ?[6. Qu'affiche le programme ci-dessus]
 -[X] "A"
--[] "C"
 -[] "B"
+-[] "C"
 -[] affiche rien
 
 
 
-```
+```python
 a,b,c = 10,8,2
 if a < b + c:
   if a > c:
@@ -62,12 +62,12 @@ else:
 
 ?[7. Qu'affiche le programme ci-dessus]
 -[] "A"
--[] "C"
 -[X] "B"
+-[] "C"
 -[] affiche rien
 
 
-```
+```python
 a,b,c = 10,8,2
 if a < b :
   if a > c:
@@ -80,11 +80,11 @@ elif a<c:
 
 ?[8. Qu'affiche le programme ci-dessus]
 -[] "A"
--[] "C"
 -[] "B"
+-[] "C"
 -[x] affiche rien
 
-```
+```python
 a,b,c = 10,8,2
 if a < b and a > c:
   print("B")
@@ -96,8 +96,8 @@ else:
 
 ?[9. Qu'affiche le programme ci-dessus]
 -[X] "A"
--[] "C"
 -[] "B"
+-[] "C"
 -[] affiche rien
 
 
@@ -108,7 +108,7 @@ else:
 -[X] Ce code ne fait rien de spécial
 
 
-```
+```python
 a,b,c = 10,8,2
 if a < b and a > c:
   print("B")
@@ -125,8 +125,8 @@ else:
 
 ?[11. Qu'affiche le programme ci-dessus]
 -[X] "A"
--[] "C"
 -[] "B"
+-[] "C"
 -[] affiche rien
 
 
@@ -136,7 +136,7 @@ else:
 -[] il affiche le nom d'une variable aléatoire
 -[] Ce code ne fait rien de spécial
 
-```
+```python
 a="A"
 if "a" == "A":
   print("a")
@@ -146,7 +146,7 @@ elif a == "A":
     print("C")
 ```
 
-?[11. Qu'affiche le programme ci-dessus]
+?[13. Qu'affiche le programme ci-dessus]
 -[] "A"
 -[] "B"
 -[X] "C"
@@ -156,24 +156,10 @@ elif a == "A":
 
 
 ## On complique un peu les choses
-```
+
+```python
 a,b,c = 10,8,2
 if (a < b and a > c) or True:
-  print("B")
-else:
-    print("A")
-```
-
-?[13. Qu'affiche le programme ci-dessus]
--[] "A"
--[] "C"
--[X] "B"
--[] affiche rien
-
-
-```
-a,b,c = 10,8,2
-if (a < b and a > c) or (a<=10 or b>c):
   print("B")
 else:
     print("A")
@@ -186,8 +172,23 @@ else:
 -[] affiche rien
 
 
-
+```python
+a,b,c = 10,8,2
+if (a < b and a > c) or (a<=10 or b>c):
+  print("B")
+else:
+    print("A")
 ```
+
+?[15. Qu'affiche le programme ci-dessus]
+-[] "A"
+-[X] "B"
+-[] "C"
+-[] affiche rien
+
+
+
+```python
 a,b,c = 10,8,2
 if (a < b and a > c) and (a <= 10 or b > c) and (a > b):
   print("B")
@@ -195,20 +196,20 @@ else:
     print("A")
 ```
 
-?[15. Qu'affiche le programme ci-dessus]
+?[16. Qu'affiche le programme ci-dessus]
 -[x] "A"
 -[] "B"
 -[] "C"
 -[] affiche rien
 
-```
+```python
 if ((a < b) ^ (a > c)) and ( a+2 > b-2):
   print("B")
 else:
     print("A")
 ```
 
-?[16. Qu'affiche le programme ci-dessus]
+?[17. Qu'affiche le programme ci-dessus]
 -[] "A"
 -[X] "B"
 -[] "C"
