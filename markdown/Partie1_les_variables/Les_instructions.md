@@ -1,3 +1,7 @@
+Avant de commencer cette partie, retournée sur votre google Classroom et effectué les exercice du document sur Algébre de bool:
+https://docs.google.com/document/d/1_9rLBXH5yDId6xlZ4UFXkwaO44OCEeLj8_XE7gRqlb4/edit?usp=sharing
+
+
 Jusqu'à maintenant, nous nous sommes contentés de faire des calculs mathématiques simples, mais nous n'avons pas encore fait d'algorithmie.
 Or, pour résoudre un problème informatique, il faut toujours effectuer une série d'actions dans un certain ordre. La description structurée de ces actions et de l'ordre dans lequel il convient de les effectuer s'appelle un algorithme.
 Nous allons donc ici apprendre à contrôler le déroulement de votre programme avec des conditions.

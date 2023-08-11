@@ -157,8 +157,8 @@ Soit la suite mathématique u0 = 0 et Un+1 = 2Un
 Un joueur doit trouver un nombre entier choisi au préalable de 1 à 100 par l'ordinateur. A chaque tour, le joueur propose un nombre et l'ordinateur peut répondre de trois façons différentes :
 Gagné !;  Trop petit; Trop grand
 
-_pour utiliser de l'aléatoire dans python vous devez utiliser la fonction =randint(0,100) qui renvoie un entier aléatoire entre 0 et 100_
-_pour utiliser cette fonction vous devez importer sont module (je détaillerais plus tard). Pour cela rajouter au tout début de votre programme l'instruction_
+_Pour utiliser de l'aléatoire dans python vous devez utiliser la fonction =randint(0,100) qui renvoie un entier aléatoire entre 0 et 100_
+_Pour utiliser cette fonction, vous devez importer sont module (je détaillerai plus tard). Pour cela rajouter au tout début de votre programme l'instruction_
 >from random import *
 
 1. Ecrire un programme permettant de jouer à "Devine le nombre".   
