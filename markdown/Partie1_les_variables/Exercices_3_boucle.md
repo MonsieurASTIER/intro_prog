@@ -153,13 +153,13 @@ Soit la suite mathématique u0 = 0 et Un+1 = 2Un
 Écrire un programme qui renvoie la valeur de U10
 
 
-**Devine le nombre:** 
+**Devine le nombre:**
 Un joueur doit trouver un nombre entier choisi au préalable de 1 à 100 par l'ordinateur. A chaque tour, le joueur propose un nombre et l'ordinateur peut répondre de trois façons différentes :
 Gagné !;  Trop petit; Trop grand
 
 _pour utiliser de l'aléatoire dans python vous devez utiliser la fonction =randint(0,100) qui renvoie un entier aléatoire entre 0 et 100_
-_pour utiliser cette fonction vous devez importer sont module (je détaillerais plus tard). Pour cela rajouter au tout début de votre programme_
-_l'instruction from random import *_
+_pour utiliser cette fonction vous devez importer sont module (je détaillerais plus tard). Pour cela rajouter au tout début de votre programme l'instruction_
+_>from random import *_
 
 1. Ecrire un programme permettant de jouer à "Devine le nombre".   
 2. On veut complexifier le jeu en imposant un nombre d'essais maximal.Modifier le programme précédent afin qu'il...
