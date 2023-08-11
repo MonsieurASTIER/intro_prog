@@ -153,6 +153,19 @@ Soit la suite mathématique u0 = 0 et Un+1 = 2Un
 Écrire un programme qui renvoie la valeur de U10
 
 
+**Devine le nombre:** 
+Un joueur doit trouver un nombre entier choisi au préalable de 1 à 100 par l'ordinateur. A chaque tour, le joueur propose un nombre et l'ordinateur peut répondre de trois façons différentes :
+Gagné !;  Trop petit; Trop grand
+
+_pour utiliser de l'aléatoire dans python vous devez utiliser la fonction =randint(0,100) qui renvoie un entier aléatoire entre 0 et 100_
+_pour utiliser cette fonction vous devez importer sont module (je détaillerais plus tard). Pour cela rajouter au tout début de votre programme_
+_l'instruction from random import *_
+
+1. Ecrire un programme permettant de jouer à "Devine le nombre".   
+2. On veut complexifier le jeu en imposant un nombre d'essais maximal.Modifier le programme précédent afin qu'il...
+demande à l'utilisateur de saisir un nombre entier qui corrrespond au nombre maximum d'essais autorisés.permette de jouer sans autoriser plus d'essais que le nombre maximum entré.affiche soit la défaite soit la victoire en précisant le nombre d'essais utilisés.
+
+
 **programme 5:**
 1. Écrire un programme qui indique si une année est bissextile. Une année est bissextile si elle est divisible par 4. Cependant, les siècles ne sont pas bissextils sauf
 les multiples de 400.
