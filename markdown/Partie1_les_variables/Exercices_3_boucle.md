@@ -159,7 +159,7 @@ Gagné !;  Trop petit; Trop grand
 
 _pour utiliser de l'aléatoire dans python vous devez utiliser la fonction =randint(0,100) qui renvoie un entier aléatoire entre 0 et 100_
 _pour utiliser cette fonction vous devez importer sont module (je détaillerais plus tard). Pour cela rajouter au tout début de votre programme l'instruction_
-_>from random import *_
+>from random import *
 
 1. Ecrire un programme permettant de jouer à "Devine le nombre".   
 2. On veut complexifier le jeu en imposant un nombre d'essais maximal.Modifier le programme précédent afin qu'il...
