@@ -30,7 +30,7 @@ C'est-à-dire de rajouter des commentaires qui ne seront pas lus par l'ordinateu
 Ceci se fait avec le caractère **#**
 
 ```python
-# ceci n'est pas interpréter par l'ordinateur
+# ceci n'est pas interprété par l'ordinateur
 ```
 
 Tout ce qui suit un # n'est pas lu par l'ordinateur (un peu comme si la ligne n'existait pas)
@@ -73,29 +73,28 @@ Afficher la moyenne pour la valeur A = 12 et B = 8
 
 Écrire l'expression qui calcule la réduction d'un produit soldé
 Afficher la valeur de la réduction pour un objet coûtant 50€ et une réduction de 10%
-Exemple : un couteau à 80€ solder à 20% donne une réduction de 16€
+Exemple : un couteau à 80€ soldé à 20% donne une réduction de 16€
 
 **Programme 3:**
 
 À l'aide de l'instruction input(), écrire un programme qui calcule le coût de votre commande de pain
 Sachant que le prix d'une baguette est de 1.20€ et le nombre de baguettes acheté dépendra de votre saisie clavier
-Le programme devra donc demander à l'utilisateur combien de baguette, il souhaite acheter.
-_astuce: n'oublier pas de convertir vos entrée input() en entier_
+Le programme devra donc demander à l'utilisateur combien de baguette il souhaite acheter.
+_astuce: n'oubliez pas de convertir vos entrée input() en entier_
 
 **Programme 4:**
-1. Trouver les valeurs suivantes, par exemple dans Wikipédia et écrire les valeurs python correspondant (attention aux unités)
+1. Trouver les valeurs suivantes, par exemple dans Wikipédia et écrire les valeurs python correspondantes (attention aux unités)
 
 + Distance **d** de la terre au soleil
 + Vitesse **v** de la lumière
 + Circonférence **c** de la terre
-+ Population **P** de la terre
 
 
 2. À partir des valeurs précédentes, écrire les expressions qui calculent les valeurs suivantes (attention aux unités !)
 
 + Temps mis par la lumière du soleil pour atteindre la terre
 + Vitesse moyenne de la terre autour du Soleil, en supposant que la trajectoire soit circulaire
-+ Nombre de fois qu'un signal électrique fait le tour de la terre en 1 seconde
++ Nombre de fois qu'un signal électrique fait le tour de la terre en 1 heure
 
 
 Afficher les différentes réponses de manière lisible dans la console (Exemple : "La lumière met x seconde pour atteindre la terre depuis le soleil.")
@@ -111,5 +110,5 @@ Dans le bourgeois Gentilhomme, le maître de philosophie dit :
 >pour finir, "Me font vos yeux beaux mourir, belle marquise, d'amour"
 
 Définir différentes variables contenant les morceaux de la phrase "belle marquise...", de telle sorte que l'on
-puisse afficher, avec la fonction **print()** et l'opérateur **+** , les chaînes de caractère correspondant aux différentes variantes énoncées. (on ignore la case)
+puisse afficher, avec la fonction **print()** et l'opérateur **+** , les chaînes de caractère correspondant aux différentes variantes énoncées. (on ignore la casse)
 Afficher ces différentes variantes

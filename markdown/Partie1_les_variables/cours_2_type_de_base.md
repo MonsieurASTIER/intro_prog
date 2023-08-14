@@ -22,21 +22,21 @@ Les nombres entiers (integers, abrégé int) s'écrivent de façon usuelle:
 ```
 ici rien de bien compliqué
 
-Les nombres à virgule flottante (float): il s'agit des nombres décimales:
+Les nombres à virgule flottante (float): il s'agit des nombres décimaux:
 ```
 1.254 0.24562 -452.6578
 ```
 
-/!\ en anglais les décimales sont séparer avec un. et non,
+/!\ en anglais les décimales sont séparées avec un. et non,
 Il en est de même en informatique
 
 
-0 et 0.0 sont deux types différents.
+0 et 0.0 sont donc deux types différents.
 
 
 
 ## Les chaînes de caractères (str)
-Il s'agit de textes (string en anglais) encadrés par des guillemets (simples ou doubles): "ceci est une chaîne de caractères".
+Il s'agit de texte (appelé string en anglais) encadrés par des guillemets (simples ou doubles): "ceci est une chaîne de caractères".
 L'utilisation du type du guillemet permet simplement d'inclure l'autre type de guillemets :
 ```
 "guillemet double m'entours je peux mettre des 'simple' dans mon texte "
@@ -71,9 +71,9 @@ print(type(B))
 ### Note sur les types et le langage python
 
 En python, il est inutile de définir à l'avance le type de la variable. C'est l'interpréteur qui le fait tout seul.
-Ainsi, lorsque on affecte un int à une variable, Python sait qu'il s'agit d'un int et, on dit que la variable est de type int.
+Ainsi, lorsque on affecte un int à une variable, Python sait qu'il s'agit d'un int et on dit que la variable est de type int.
 Si on change de type plus tard (en affectant un autre type à la variable), l'interpréteur s'adaptera automatiquement et de manière transparente pour le développeur.
-C'est bien pratique, il n'y a donc pas besoin de s'occuper des types l'interpréteur s'occupe de tout !
+C'est bien pratique, il n'y a donc pas besoin de s'occuper des types, l'interpréteur s'occupe de tout !
 Oui c'est vrai, mais il existe des situations où nous avons besoin que nos variables soient d'un type précis, ou bien de convertir une variable d'un type à une autre.
 
 Exemple:
@@ -81,7 +81,7 @@ Exemple:
 variableString = "ma chaine 10"
 valeurExtraite = variableString[-2:] #ici j'extrait les 2 dernier caractere de la chaine: 10
 ```
-La variable _valeurExtraite_ vos désormais la chaîne de caractère: "10"
+La variable _valeurExtraite_ vaut désormais la chaîne de caractère: "10"
 Que faire si je veux interpréter cette valeur comme le nombre 10 et non la chaîne de caractère "10"?
 
 ### conversion des variables
@@ -95,8 +95,8 @@ l'opération inverse **str**:
 >```variable = str(variable)```
 variable est redevenu de type chaîne de caractère.
 
-Attention à convertir ce qui est convertible ! ```int("abc")``` renverras une erreur.
-Faite des essais ici :
+Attention à convertir ce qui est convertible ! ```int("abc")``` renverra une erreur.
+Faites des essais ici :
 
 ```python runnable
 A = 10

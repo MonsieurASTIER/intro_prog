@@ -29,7 +29,7 @@ Il est temps de valider vos connaissances.
 A=10
 B=10.0
 ```
-?[5. A et B sont t'il du même type]
+?[5. A et B sont t'ils du même type]
 -[X] Non
 -[] Oui
 
@@ -37,7 +37,7 @@ B=10.0
 A="Bonjour"
 B=str(10.0)
 ```
-?[6. A et B sont t'il du même type]
+?[6. A et B sont t'ils du même type]
 -[] Non
 -[X] Oui
 
@@ -59,14 +59,14 @@ B=str(10.0)
 - [] 1.E10
 
 
-?[9. Quelles est les chaînes de caractères correctement écrits en python?]
+?[9. Quelles sont les chaînes de caractères correctement écrites en python?]
 - [X] "Python c'est facile"
 - [] 'il dit qu'il fait beau'
-- [x] "est tu sur?"
+- [x] "es-tu sûr?"
 - [X] "10"
 
-?[10. Quelles est les chaînes de caractères correctement écrits en python?]
+?[10. Quelles sont les chaînes de caractères correctement écrites en python?]
 - [X] 'Python c"est trop chouette'
 - [X] "Mon professeur c'est le plus fort"
 - [x] "-45.87"
-- [] "ce qui est dur c'est l'échecs..."
+- [X] "ce qui est dur c'est l'échec..."

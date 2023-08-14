@@ -10,17 +10,17 @@ Bienvenu dans le merveilleux monde de la programmation
 
 ## Présentation
 Dans ce cours, nous allons apprendre les bases de la programmation informatique.
-Pour cela, nous allons suivre un ensemble d'exercices à réaliser en autonomie, en classe (à finir à la maison si nécessaires), dans le but d'apprendre progressivement le langage Python.
+Pour cela, nous allons suivre un ensemble d'exercices à réaliser en autonomie, en classe (à finir à la maison si nécessaire), dans le but d'apprendre progressivement le langage Python.
 
-Il est important de réaliser ces exercices **seule**, et sans l'aide de ces camarades. Il s'agit des bases nécessaires à la progression de la programmation.
+Il est important de réaliser ces exercices **seul**, et sans l'aide de ses camarades. Il s'agit des bases nécessaires à la progression de la programmation.
 En cas de difficultés, n'hésitez pas à faire appel au professeur.
 
-Il est également important de **bien lire les cours qui précédents les exercices**, ceux-ci permettent de comprendre ce qui est important de connaître pour la bonne réalisation des exercices.
+Il est également important de **bien lire les cours qui précèdents les exercices**, ceux-ci permettent de comprendre ce qui est important de connaître pour la bonne réalisation des exercices.
 
 Pour rappel, il ne s'agit pas d'une course. L'importance est de bien comprendre la leçon.
 
 
-Des QCM seront à réaliser en fin de partie. **Ils ne sont pas noter** ,ils permettent uniquement de vous auto-évaluer. En cas de réussite <80% il est conseiller de relire la leçon, car cela signifie qu'elle n'a pas été bien comprise.
+Des QCM seront à réaliser en fin de partie. **Ils ne sont pas notés** ,ils permettent uniquement de vous auto-évaluer. En cas de réussite <80% il est conseiller de relire la leçon, car cela signifie qu'elle n'a pas été bien comprise.
 
 
 
@@ -44,7 +44,7 @@ Il existe une différence entre ces deux QCM
 - [x] Il en faut plus pour me démotiver.
 
 Il est possible de réaliser autant de fois que nécessaires un QCM.
-**Attention de ne pas tomber dans la faciliter de cocher au hasard et de recommencer,ceci ne fera pas avancer le [schmilblik](https://fr.wikipedia.org/wiki/Schmilblick)**
+**Attention de ne pas tomber dans la facilité de cocher au hasard et de recommencer,ceci ne fera pas avancer le [schmilblik](https://fr.wikipedia.org/wiki/Schmilblick)**
 
 
 
@@ -52,13 +52,12 @@ Il est possible de réaliser autant de fois que nécessaires un QCM.
 
 On peut trouver un cadre, comme ci-dessous, dans lequel il faut taper son code. Une partie du code peut être déjà pré rempli **il ne faut pas modifier l'en-tête**.
 
-Pour résoudre l'exercice, il faudra écrire un programme qui passera les tests lorsqu'on appuie sur Run.
+Pour résoudre l'exercice, il faudra écrire un programme qui passera les tests lorsque l'on appuie sur Run.
 
 Pour vous entraîner, essayez d'écrire `print("Hello World")` dans le programme suivant puis testez-le en appuyant sur Run.
 
 
 
-Appuyez sur le bouton Run pour voir l'effet du code ci-dessous :
 ```python runnable
 #Ecrire votre code ici
 ```

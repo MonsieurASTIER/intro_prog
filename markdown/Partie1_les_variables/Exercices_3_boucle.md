@@ -136,24 +136,13 @@ print(a)
 
 Écrire un programme qui affiche les 10 premiers nombres de la suite de fibonnacci (google it)
 
+
 **programme 3:**
-
-Écrire un programme qui affiche le nombre de secondes qui reste avant la fin de la journée.
-L'heure sera définie par un flottant dont la partie entière définira les heures, et la partie décimale les minutes. Ainsi, 8.15 correspond à 8h15
-Tester votre programme avec les variables :
-```
-heure_1 = 12.00
-heure_2 = 14.30
-heure_3 = 0.0
-heure_4 = 23.12
-```
-
-**programme 4:**
-Soit la suite mathématique u0 = 0 et Un+1 = 2Un
+Soit la suite mathématique u0 = 1 et Un+1 = 2Un
 Écrire un programme qui renvoie la valeur de U10
 
 
-**Devine le nombre:**
+**programme 4**
 Un joueur doit trouver un nombre entier choisi au préalable de 1 à 100 par l'ordinateur. A chaque tour, le joueur propose un nombre et l'ordinateur peut répondre de trois façons différentes :
 Gagné !;  Trop petit; Trop grand
 
