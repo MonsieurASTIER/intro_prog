@@ -1,4 +1,4 @@
-#QCM
+# QCM
 vous connaissez la routine maintenant.Validons les nouvelles connaissances avec un QCM
 
 ```python
@@ -189,8 +189,24 @@ Ecrire une fonction _lancer_des_ qui renvoie le résultat d'un lancé de dés av
 _rappel pour generer de l aléatoire utiliser =randint()_
 
 **programme**
-
 Ecrire une fonction _exposant_ qui prend en argument x et n et qui renvoie le résultat de x exposant n
+
+**programme**
+Votre boulangerie à grossis, vous désirez écrire un programme Python qui calculera automatiquement le montant de la facture des clients.
+Tout client qui achète au moins 5 fois le même article se voit octroyer une remise de 5 % (uniquement sur le montant de l'achat de cet article).
+Ecrivez un programme qui contient plusieurs fonction. Ce programme doit demander à l'utilisateurs ça commande et afficher sa facture une fois ça commande terminer.
+Il pourra donc commander différent article et les différentes réductions devrons lui être attribué
+
+**programme**
+Nous allons coder le programme de pierre-papier-ciseaux
+1. Ecrire une fonction _gagnant_ qui prend deux argument en entrée: correspondant au choix des deux joueurs
+et renvoie 1 si c'est le 1er joueurs qui gagne 2 si c'est le second et 0 en cas d'égaliter.
+2. Ecrire une fonction qui demande au joueur un choix et renvoie victoire/defaite ou de rejouer en fonction du résultat de la fonction _gagnant_
+3. Ecrire le programme qui permet de jouer contre l'ordinateurs
+l'ordinateurs jouera de maniere aléatoire grace à la fonction randint
+4.(facultatif) Il est tout a fait possible d'imaginer une fonction IA qui joue au jeux de maniere non aléatoire mais en fonction de l'ancienne entrée des joueurs
+
+
 
 ---
 ---
