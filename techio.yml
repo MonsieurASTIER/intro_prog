@@ -20,7 +20,10 @@ plan:
   statement: markdown/Partie1_les_variables/Les_boucles.md
 - title: Exercices
   statement: markdown/Partie1_les_variables/Exercices_3_boucle.md
-
+- title: Fonctions
+  statement: markdown/Partie1_les_variables/Les_fonctions.md
+  - title: Exercices
+    statement: markdown/Partie1_les_variables/Exercices_4_fonction.md
 
 
 
