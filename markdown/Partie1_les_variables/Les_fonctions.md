@@ -1,11 +1,8 @@
 # Les fonctions
 
 Nous voici dans la dernière partie de ce chapitre sur les bases de la programmation python.
-
-Après cela vous connaître toutes les bases pour commencer à écrire des vrais programmes informatiques!
-
+Après cela, vous connaîtrez toutes les bases pour commencer à écrire des vrais programmes informatiques !
 Cette partie est essentielle à la bonne maîtrise du python. Il est impossible d'écrire un programme sans utiliser des fonctions.
-
 
 
 **Un peu d'histoire**
@@ -15,10 +12,12 @@ Avec ce chapitre, on démarre l'écriture d'algorithmes. Le mot "algorithme" vie
 ## Utilité d'une fonction
 L'écriture d'une fonction rend un programme plus simple à comprendre, plus facile à vérifié et plus simple à modifier.
 Vous avez déjà utilisé certaines fonctions pré programmé sans le savoir : print(); input(), randint()...
+
 Les fonctions font partie des routines. Ce sont des portions de programme auxquelles on a donné un nom, afin de pouvoir les utiliser ensuite en rappelant juste ce nom.
 Une chose à retenir, la redondance du code est l'ennemi numéro un du programmeur ! Il faut à tout prix éviter d'écrire plusieurs fois le même code dans son programme !
 Vous découvrirez assez vite les raisons avec l'expérience. Mais multiplier le même code complique la maintenance et accroît fortement le risque d'erreur!
-Sans oublier que cela fait plus de boulot, car plus de code à écrire ^^
+Sans oublier que cela fait plus de boulot, car plus de code à écrire
+
 Revenons à l'utilité des fonctions.
 Une fonction est utilisée comme une boite noire : on fournit des valeurs et on récupère "quelque chose". C'est très pratique et nous permet d'utiliser du code écrit par quelqu'un d'autre.
 
@@ -40,6 +39,7 @@ La déclaration de fonction suit une syntaxe particulière en python.
 Elle commence par le mot-clé **def** suivie du nom de la fonction.
 Le nommage d'une fonction suit les mêmes restrictions que ceux des variables. (alphanumérique, pas de caractères spéciaux...)
 Puis entre parenthèses une liste de paramètres d'entrée suivie de **:**
+
 Le contenu de ma fonction (bloc d'instruction) doit être indentées
 Enfin, une fonction peut renvoyer une valeur. On parle alors de valeur de sortie.
 Pour cela, on utilise le mot-clé **return** suivie de la valeur de sortie.
@@ -53,7 +53,7 @@ def addition(val1,val2):
   return somme
 ```
 
-_Ne crée par des fonctions possédant le même nom qu'une de vos variables déjà existant sous peine d'obtenir des résultats aberrants, car l'ordinateur risque de confondre les deux_
+_N'appeler pas vos fonctions par le même nom qu'une de vos variables déjà existant, sous peine d'obtenir des résultats aberrants, car l'ordinateur risque de confondre les deux._
 
 
 **Utiliser une fonction**
@@ -65,7 +65,7 @@ print("message")
 valeur = input()
 ```
 
-## arguments d'une fonction
+## Arguments d'une fonction
 Une fonction peut comporter plusieurs arguments (appelés aussi paramètre). Il suffit de séparer par une virgule les différents arguments.
 
 
@@ -101,7 +101,7 @@ def ma_fonction():
 ma_fonction()
 print(variableGlobal)
 ```
-Si vous exécutez le code ci-dessus vous voyez bien que la variableglobal possède la valeur 20 dans la fonction _ma_fonction_ mais garde la valeur 10 en-dehors.
+Si vous exécutez le code ci-dessus vous voyez bien que _variableglobal_ possède la valeur 20 dans la fonction _ma_fonction_ mais garde la valeur 10 en-dehors.
 
 Si dans votre nouvelle chambre vous décidez de rajouter des objets (variable) on parle alors de **variable local** car elle est locale à votre nouvelle chambre uniquement.
 L'étagère de votre chambre principale n'est pas modifiée et ne possède pas ce nouvel objet.
@@ -116,14 +116,14 @@ def ma_fonction():
 ma_fonction()
 print(variableLocal)
 ```
-_l'exécution du code ci-dessus renverra une erreur : variablelocal n'est pas définie et n'n'existe pas_
+_l'exécution du code ci-dessus renverra une erreur : variablelocal n'est pas définie et n'existe pas_
 
 Mais alors comment je fais si je souhaite modifier la valeur de mes variables globales ?
 Pour cela, il existe deux solutions :
 
 Une qui ne faut pas utiliser !!!!!
 le mot-clé **global**
-Je vous explique le fonctionnement, mais je vous déconseille très fortement de l'utiliser, car c'est généralement synonyme de mauvaise architecture logicielle !
+Je vous explique le fonctionnement, mais je vous déconseille très fortement de l'utiliser, car c'est généralement synonyme de mauvaise architecture logicielle et un très fort risque d'effets de bord
 
 ```python runnable
 valeurGlobal = 10
@@ -133,7 +133,7 @@ def ma_fonction():
 
 print(valeurGlobal)  
 ```
-L'utilisation du mot-clé global permet d'indiquer à l'ordinateur qu'on fait référence à la valeur originale et non une copie. Dans notre analogie, c'est comme si on prend un objet de l'étagère originale pour la mettre dans l'étagère de notre seconde chambre. (c'est ici que l'analogie perd de son sens, car l'objet en question se retrouve à ce moment et dans la chambre originale et dans la nouvelle chambre, une sorte d'objet quantique.)
+L'utilisation du mot-clé global permet d'indiquer à l'ordinateur qu'on fait référence à la variable originale et non une copie. Dans notre analogie, c'est comme si on prend un objet de l'étagère originale pour la mettre dans l'étagère de notre seconde chambre. (c'est ici que l'analogie perd de son sens, car l'objet en question se retrouve à ce moment et dans la chambre originale et dans la nouvelle chambre, une sorte d'objet quantique.)
 
 Je ne détaillerai pas plus ceci.
 
@@ -151,12 +151,14 @@ valeurGlobal = ma_fonction(valeurGlobal)
 
 L'instruction return permet de sortir de ma fonction et de renvoyé une valeur. Cette valeur peut très bien être la valeur d'une variable local.
 C'est un peu comme si on rapportait de notre nouvelle étagère un objet à stocker dans notre étagère principale!
+Une fois sortie de la fonction les *variable local* sont "détruite"!
 
 
 
 ## Point important à propos des fonctions :
 
-**respecter la syntaxe**
+**Respecter la syntaxe**
+
 Il est impératif de bien respecter la syntaxe de déclaration :
 Mot-clé **def** ne pas oublier **:**
 Et faire attention à l'indentation!!
