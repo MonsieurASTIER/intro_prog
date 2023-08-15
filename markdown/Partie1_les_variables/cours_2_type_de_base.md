@@ -27,7 +27,7 @@ Les nombres à virgule flottante (float): il s'agit des nombres décimaux:
 1.254 0.24562 -452.6578
 ```
 
-/!\ en anglais les décimales sont séparées avec un. et non,
+/!\ en anglais les décimales sont séparées avec un point **.** et non une virgule **,**
 Il en est de même en informatique
 
 

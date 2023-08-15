@@ -84,4 +84,38 @@ while b<10:
   print(b)
 ```
 
+
+## Les énumérable
+
+En mathématiques, on dit qu'un ensemble est dénombrable lorsqu'on peut associer à chaque élément de l'ensemble un nombre (traditionnellement 1, 2, 3 ...)
+
+    les fraises Tagada d'un paquet sont dénombrables.
+    les voitures qui roulent sur l'autoroute sont dénombrables.
+    l'eau qui coule d'un robinet n'est pas dénombrable.
+
+En informatique, il existe un concept similaire qui va désigner les objets que l'on peut énumérer, c'est-à-dire les décomposer en une succession ordonnée d'éléments. On les appelle les énumérables ou les itérables (Python utilise le mot anglais iterable).
+
+    la variable NSI (qui est de type String) est énumérable : on peut la décomposer en N, S, I.
+    la variable 5 (qui est de type Int) n'est PAS énumérable : on ne peut pas la décomposer.
+    Plus tard nous étudirons d'autre type de variable énumérable comme les listes
+
+#### Itérer sur les itérables : la boucle for ... in ...⚓︎
+ **Itérer sur une chaîne de caractères**
+Il existe une instruction permettant de faire une (ou plusieurs) action(s) à chaque itération sur un élément énumérable.Pour cela on utilise simple notre boucle for, mais en itérant sur la variable itérable:
+
+```python runnable
+for k in 'NSI':
+    print(k)
+```
+La variable k va succéssivement prendre les valeurs de "NSI" sot N,S,I
+C'est tres pratique lorsque on manipule des chaines de caractère
+
+
+Quand vous écrivez une boucle for ... in ..., veillez bien à :
+
+    + finir la ligne du for par les deux points **:**
+    + indenter sous le for les instructions qui doivent être répétées
+
+    
+
 Le mieux pour comprendre ces deux concepts, c'est encore de pratiquer !

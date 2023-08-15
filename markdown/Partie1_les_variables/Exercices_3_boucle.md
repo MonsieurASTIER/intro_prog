@@ -155,6 +155,15 @@ _Pour utiliser cette fonction, vous devez importer sont module (je détaillerai 
 demande à l'utilisateur de saisir un nombre entier qui corrrespond au nombre maximum d'essais autorisés.permette de jouer sans autoriser plus d'essais que le nombre maximum entré.affiche soit la défaite soit la victoire en précisant le nombre d'essais utilisés.
 
 
+**Programme 5**
+Ecrire un programme qui affiche une a une le code Unicode des caractères du mot "bonjour"
+_ord('l')_ renvoie le code unicode du caractere 'l'
+
+**programme 6**
+Sur un jeu d'échecs, les cases sont repérées par une lettre (de A jusqu'à H) et par un chiffre (de 1 jusqu'à 8).
+Les cases sont donc A1, A2, A3, ..., H7, H8.
+Proposer un code qui écrit toutes les cases possibles.
+
 **programme 5:**
 1. Écrire un programme qui indique si une année est bissextile. Une année est bissextile si elle est divisible par 4. Cependant, les siècles ne sont pas bissextils sauf
 les multiples de 400.

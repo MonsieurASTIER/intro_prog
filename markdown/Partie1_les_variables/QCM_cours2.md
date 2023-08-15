@@ -48,7 +48,6 @@ B=str(10.0)
 - [] 2,45
 - [] 14 521
 - [X] 147554
-- [X] 1.E10
 
 
 ?[8. Quels sont les nombres considérés comme des nombres entiers en Python?]
@@ -56,7 +55,7 @@ B=str(10.0)
 - [] .145
 - [X] 125
 - [X] -45
-- [] 1.E10
+
 
 
 ?[9. Quelles sont les chaînes de caractères correctement écrites en python?]

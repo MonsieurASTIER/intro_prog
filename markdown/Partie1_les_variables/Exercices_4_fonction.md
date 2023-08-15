@@ -174,7 +174,6 @@ Lorsque vous aller utiliser des fonctions qui ne sont pas les votres (que vous n
 
 ---
 ---
-
 **Programme 1**
 Ecrire une fonction qui prend deux argument en entrer et renvoie la valeur du plus grand des deux arguments
 
@@ -205,6 +204,22 @@ et renvoie 1 si c'est le 1er joueurs qui gagne 2 si c'est le second et 0 en cas 
 3. Ecrire le programme qui permet de jouer contre l'ordinateurs
 l'ordinateurs jouera de maniere aléatoire grace à la fonction randint
 4.(facultatif) Il est tout a fait possible d'imaginer une fonction IA qui joue au jeux de maniere non aléatoire mais en fonction de l'ancienne entrée des joueurs
+
+
+**Chiffrage de césar**
+1. Ecrire une fonction _decale_ qui prend en parametre: letre(str) et shift(int) cette fonction renvoie la lettre décaller de _shift_
+exemple: cryptage("h",1) renvoie "i"
+Aide:
+
+>>> ord('A')
+65
+>>> chr(65)
+'A'
+
+2. Ecrire une fonction _crypter_ qui prend en parametre un mot(str) et shift(int) cette fonction renvoie le mot avec toutes ces lettre décaller de _shift_
+
+3. Ecrire un programme qui permet de crypter et décrypter une phrase
+
 
 
 
