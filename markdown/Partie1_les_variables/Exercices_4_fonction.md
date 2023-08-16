@@ -148,14 +148,16 @@ vous connaissez la routine maintenant.Validons les nouvelles connaissances avec 
 ---
 
 ## Avant d'aller plus loin
- Il est temps de faire un petit point Très important sur l'écriture des programmes informatique
-Il est très rare que vous développez un programme seul, et encore plus que vous soyez le seul à l'utilisez une fois développez (ce serait dommage).
-Lors de l'écriture d'un programme entier, il est important de penser à la réutilisabilité de votre programme, et du faite que d'autre développeur que vous sera amener à lire votre code. Il est donc important de commenter vos programme et de rediger une documentation. Pour cette derniere nous verrons plus en détails tard dans l'année.
-Par contre je souhaite à partir de maintenant que dés lors vous définissez une fonction vous l'accompagner d'un **DocString**
+Il est temps de faire un petit point très important sur l'écriture des programmes informatiques.
+Il est très rare que vous développiez un programme seul, et encore plus que vous soyez le seul à l'utiliser une fois développé (ce serait dommage.).
+Lors de l'écriture d'un programme entier, il est important de penser à la réutilisabilité de votre programme, et du faite que d'autre développeur que vous sera amener à lire votre code. Il est donc important de commenter vos programmes et de rédiger une documentation. Pour cette dernière, nous verrons plus en détails tard dans l'année.
+Par contre, je souhaite à partir de maintenant que dès que vous définissez une fonction vous l'accompagner automatiquement d'un **DocString**
 
 **DocString**
 Le mot docstring est un raccourci pour DOCumentation STRINGs. On les utilise pour décrire le comportement d'une fonction et donnée des instructions sur son utilisation.
-Une docstring se définit à l’intérieur d'une fonction, directement après ça déclaration
+Une docstring se définit à l’intérieur d'une fonction, directement après sa déclaration
+
+
 
 ```python
   def fonction_cube(param1):
@@ -167,15 +169,14 @@ Une docstring se définit à l’intérieur d'une fonction, directement après �
     return param1
 ```
 
-**Je souhaite qu'a partir de maintenant chaque fonction que vous écrivez soit composé d'une DocString**
+**Je souhaite qu'à partir de maintenant chaque fonction que vous écrivez soit composé d'une DocString**
 
-Lorsque vous aller utiliser des fonctions qui ne sont pas les votres (que vous n'avez pas vous même coder), comme un module extèrieure (c'est un groupe de fonction provenant d'un autre programme. Vous en avez déjà utiliser: _randint()_ du module _random_) vous pouvez afficher la docstring de cette fonction grace à print(mafonction.__doc__)
-
+Lorsque vous allez utiliser des fonctions qui ne sont pas les vôtres (que vous n'avez pas vous-même coder), comme un module extérieur ( c'est un groupe de fonction provenant d'un autre programme. Vous en avez déjà utilisé: _randint()_ du module _random_) vous pouvez afficher la docstring de cette fonction grâce à print(mafonction.__doc__)
 
 ---
 ---
 **Programme 1**
-Ecrire une fonction qui prend deux argument en entrer et renvoie la valeur du plus grand des deux arguments
+Écrire une fonction qui prend deux arguments en entrer et renvoie la valeur du plus grand des deux arguments
 
 **Programme 2**
 Ecrire une _perimetre_ permettant de calculcer le périmètre d'un cercle. La fonction admettra en entrée variable r correspondant au rayon du cercle
@@ -211,10 +212,12 @@ l'ordinateurs jouera de maniere aléatoire grace à la fonction randint
 exemple: cryptage("h",1) renvoie "i"
 Aide:
 
+```
 >>> ord('A')
 65
 >>> chr(65)
 'A'
+```
 
 2. Ecrire une fonction _crypter_ qui prend en parametre un mot(str) et shift(int) cette fonction renvoie le mot avec toutes ces lettre décaller de _shift_
 

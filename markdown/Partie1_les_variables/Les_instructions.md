@@ -2,7 +2,7 @@ Avant de commencer cette partie, retournée sur votre google Classroom et effect
 https://docs.google.com/document/d/1_9rLBXH5yDId6xlZ4UFXkwaO44OCEeLj8_XE7gRqlb4/edit?usp=sharing
 
 
-Jusqu'à maintenant, nous nous sommes contentés de faire des calculs mathématiques simples, mais nous n'avons pas encore fait d'algorithmie.
+Jusqu'à maintenant, nous nous sommes contenté de faire des calculs mathématiques simples, mais nous n'avons pas encore fait d'algorithmie.
 Or, pour résoudre un problème informatique, il faut toujours effectuer une série d'actions dans un certain ordre. La description structurée de ces actions et de l'ordre dans lequel il convient de les effectuer s'appelle un algorithme.
 Nous allons donc ici apprendre à contrôler le déroulement de votre programme avec des conditions.
 
@@ -25,15 +25,19 @@ Vous en avez déjà tous fait sans le savoir. Il s'agit simplement de prendre un
 Toutes ces phrases ont une chose en commun : une instruction conditionnelle **SI**
 
 La conditionnelle est une structure qui permet d'exécuter du code selon qu'une condition est remplie ou non.
-Elle sera de la forme :
+Elle s’implémente en python de la forme :
+
 
 ```python
 if condition:
   bloc A
 ```
-Le bloc A ne sera exécuté que si la condition est remplie :
+Le bloc A ne sera exécuté que si la condition est remplie
+Analyser bien la syntaxe : la condition commence par l'instruction **IF** suivie de la _condition_ suivie de **:** puis d'un retour à la ligne.
+Le bloc commence par une **indentation**.
 
-**Petit point syntaxe :**
+
+**Précision importante :**
 Python est très sensible à l'indentation (le nombre de caractère espace et retour à la ligne)
 Une séquence d'instructions, toutes indentées du même nombre d'espaces, est appelée un bloc. C'est ainsi que le langage python différencie la séquence d'instruction à effectuer quand la condition est remplie.
 
@@ -42,16 +46,14 @@ if condition :
   blocA
   blocA
   blocA
-  blocB
-  blocB
+blocB
+blocB
 
 ```
-Analyser bien la syntaxe : la condition commence par l'instruction **IF** suivie de la _condition_ suivie de **:** puis d'un retour à la ligne.
-Le bloc commence par une **indentation**.
 
 ```python
 if condition:
-  bloc A
+bloc A
 ```
 Ceci renverra une erreur de syntaxe. (_syntax error_ ou _indentationError_) (retenez ces messages d'erreur vous les verrez souvent ;)
 
@@ -59,15 +61,15 @@ Ceci renverra une erreur de syntaxe. (_syntax error_ ou _indentationError_) (ret
 
 ```python runnable
 if 1+1 == 2 :
-print("c'est vrai")
+  print("La condition est vrai alors j'affiche le message")
 
 if 1+1 > 2 :
-print("c'est faux donc ce message ne s'affichera pas.")
+  print("c'est faux donc ce message ne s'affichera pas.")
 ```
 
 **
 
-À cela, on peut rajouter le bloc **else** qui sera exécuté si la condition **if** n'est pas remplie.
+Nous pouvons rajouter une instruction **else** qui sera exécuté que si la condition **if** n'est pas remplie.
 
 ```python
 if condition:
@@ -77,7 +79,7 @@ else:
 ```
 Dans cet extrait soit le code A sera exécuté, soit le code B **mais jamais les deux**
 _else_ se traduit par _sinon_:
-soit j'exécute le bloc A sinon j'exécute le bloc B.
+Soit j'exécute le bloc A sinon j'exécute le bloc B.
 
 ```python runnable
 if 1+1 > 2 :

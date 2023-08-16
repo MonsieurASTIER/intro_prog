@@ -1,30 +1,30 @@
 # Validons nos nouvelles connaissances
-Pour rappel, ces QCM ne sont pas notés, mais servent à autoévaluer votre compréhension du cours. Prenez donc le temps de répondre comme il faut aux questions et de relire le cours si besoin.
+Pour rappel, ces QCM ne sont pas notés, mais servent a autoévaluer votre compréhension du cours. Prenez donc le temps de répondre comme il faut aux questions et de relire le cours si besoin.
 
 
 Les variables a,b,c sont défini comme ci-dessous.
 ```python
-a=10
+a = 10
 b,c = 8,2
 ```
 
-?[1. l'instruction (a<8) renverras :]
+?[1. Que renvoie l'instruction (a<8) :]
 - [] True
 - [X] False
 
-?[2. l'instruction (a<b) renverras : ]
+?[2. Que renvoie l'instruction (a<b) : ]
 - [] True
 - [X] False
 
-?[3. l'instruction (a>b and a>c) renverras :]
+?[3. Que renvoie l'instruction (a>b and a>c) :]
 - [X] True
 - [] False
 
-?[4. l'instruction (a-2 != b) renverras :]
+?[4. Que renvoie l'instruction (a-2 != b) :]
 - [] True
 - [x] False
 
-?[5. l'instruction (True and False) renverras :]
+?[5. Que renvoie l'instruction (True and False) :]
 - [] True
 - [X] False
 
@@ -258,5 +258,5 @@ _2.Pour des croissants taper 2..._
 Écrire un programme qui dit si le nombre saisi au clavier est paire ou impaire
 
 **Programme 4:**
-Écrire un programme qui renvoie votre interprétation de votre IMC (google it).
+Écrire un programme qui calcule et renvoie l'interprétation d’un IMC (google it).
 Votre programme prendrait en entrée une taille et un poids (attention aux unités) et renverra une phrase contenant l'IMC et son interprétation.
