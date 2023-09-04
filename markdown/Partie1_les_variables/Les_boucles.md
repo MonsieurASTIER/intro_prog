@@ -15,7 +15,7 @@ Commençons par la première :
 for i in range(0,10):
   bloc A
 ```
-La boucle **for** permet de répéter un nombre précis de fois un bloc d'instruction.
+La boucle **for** permet de répéter un nombre prédéterminé de fois un bloc d'instruction.
 Dans notre exemple ci-dessus, le bloc A sera répéter 10 fois
 On dit également que l'on itère x fois le bloc A.
 La variable i va posséder la valeur de l'itération. On parle alors d'**enum** ou **itérateur** (à retenir, car cela nous sera bien utile plus tard).
@@ -32,7 +32,7 @@ _les plus attentifs noterons que range(0,10) est devenu range(10)_
 _en python la fonction range commence par défaut à 0 il n'est donc pas obligatoire de le préciser_
 
 Vous noterez que l'affichage s'arrête à 9 et commence par 0. La boucle s'arrête lorsque la comparaison est vraie (i==10).
-Et il ne commence pas par 1, mais par 0!!! Ceci est vrai dans tous les langages informatiques
+Et il ne commence pas par 1, mais par 0!!! Ceci est vrai dans tous les langages informatiques.
 **Il s'agit de l'erreur la plus commune en informatique,** surtout lorsque l'on débute.
 Je vous conseille de bien mémoriser ceci, et d'y penser à chaque fois que vous écrirez une boucle lorsque vous développerez des programmes.
 
@@ -89,17 +89,17 @@ while b<10:
 
 En mathématiques, on dit qu'un ensemble est dénombrable lorsqu'on peut associer à chaque élément de l'ensemble un nombre (traditionnellement 1, 2, 3 ...)
 
-    les fraises Tagada d'un paquet sont dénombrables.
-    les voitures qui roulent sur l'autoroute sont dénombrables.
-    l'eau qui coule d'un robinet n'est pas dénombrable.
+Les fraises Tagada d'un paquet sont dénombrables.
+Les voitures qui roulent sur l'autoroute sont dénombrables.
+L'eau qui coule d'un robinet n'est pas dénombrable.
 
 En informatique, il existe un concept similaire qui va désigner les objets que l'on peut énumérer, c'est-à-dire les décomposer en une succession ordonnée d'éléments. On les appelle les énumérables ou les itérables (Python utilise le mot anglais iterable).
 
-    la variable NSI (qui est de type String) est énumérable : on peut la décomposer en N, S, I.
-    la variable 5 (qui est de type Int) n'est PAS énumérable : on ne peut pas la décomposer.
-    Plus tard nous étudirons d'autre type de variable énumérable comme les listes
+la variable NSI (qui est de type String) est énumérable : on peut la décomposer en N, S, I.
+la variable 5 (qui est de type Int) n'est PAS énumérable : on ne peut pas la décomposer.
+Plus tard, nous étudierons d'autre type de variable énumérable comme les listes
 
-#### Itérer sur les itérables : la boucle for ... in ...⚓︎
+#### Itérer sur les itérables : la boucle for ... in ...
  **Itérer sur une chaîne de caractères**
 Il existe une instruction permettant de faire une (ou plusieurs) action(s) à chaque itération sur un élément énumérable.Pour cela on utilise simple notre boucle for, mais en itérant sur la variable itérable:
 
@@ -116,6 +116,6 @@ Quand vous écrivez une boucle for ... in ..., veillez bien à :
     + finir la ligne du for par les deux points **:**
     + indenter sous le for les instructions qui doivent être répétées
 
-    
+
 
 Le mieux pour comprendre ces deux concepts, c'est encore de pratiquer !

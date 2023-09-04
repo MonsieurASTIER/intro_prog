@@ -244,19 +244,21 @@ else:
 Le programme de la question 12 est mal écrit, certaines conditions sont redondantes, et il ne prend pas en compte tous les cas de figure. (égalité ect).
 Réécrire le programme de la question 12 qui renvoie la plus grande valeur et son nom de variable. En cas d'égalité, afficher une des deux variables égales.
 
-
 **Programme 2:**
-Récrire le programme du calcul du pain, mais désormais l'utilisateur devra saisir le nombre de pains acheté ainsi que le type de pain.
-
-_Astuce vous pouvez afficher un choix multiple à l'utilisateur en proposant une saisie précise :_
-
-_1.Pour une baguette taper 1_
-_2.Pour des croissants taper 2..._
-
-
-**Programme 3:**
 Écrire un programme qui dit si le nombre saisi au clavier est paire ou impaire
 
-**Programme 4:**
-Écrire un programme qui calcule et renvoie l'interprétation d’un IMC (google it).
-Votre programme prendrait en entrée une taille et un poids (attention aux unités) et renverra une phrase contenant l'IMC et son interprétation.
+**Programme 3:**
+
+Écrire un programme qui calcule l'empreinte carbone de votre déplacement jusqu'au lycée.
+Celui-ci doit renvoyer sa valeur en Kg-co2 ainsi que son interprétation.
+Sachant que moins de 0.1kg c'est très bien, entre 0.1 et 0.5kg c'est bien, moins de 2kg c'est acceptable plus de 2kg peut mieux faire.
+
+_Astuce vous pouvez afficher un choix multiple à l'utilisateur en proposant une saisie précise :_
+```
+distance = int(input("Qu'elle distance effectuée vous quotidiennement pour venir au lycée? "))
+print("Qu'elle est votre moyen de transport ? ")
+print("1. Voiture thermique")
+print("2. Voiture électrique")
+print("3. pied,vélo,skateboard")
+print("4. Vélo électrique ou trottinette électrique")
+print("5. Transport en commun")

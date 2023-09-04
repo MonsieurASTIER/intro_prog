@@ -176,7 +176,7 @@ Lorsque vous allez utiliser des fonctions qui ne sont pas les vôtres (que vous 
 ---
 ---
 **Programme 1**
-Écrire une fonction qui prend deux arguments en entrer et renvoie la valeur du plus grand des deux arguments
+Écrire une fonction _maxi_ qui prend deux arguments en entrer et renvoie la valeur du plus grand des deux arguments
 
 **Programme 2**
 Ecrire une _perimetre_ permettant de calculcer le périmètre d'un cercle. La fonction admettra en entrée variable r correspondant au rayon du cercle
@@ -185,30 +185,34 @@ Ecrire une _perimetre_ permettant de calculcer le périmètre d'un cercle. La fo
 Ecrire une fonction _pair_ qui renvoie True si le nombre passer en paramètre est pair, et False sinon
 
 **programme 4**
-Ecrire une fonction _lancer_des_ qui renvoie le résultat d'un lancé de dés avec comme arguments d'entrer le nombre de dés lancer.
-_rappel pour generer de l aléatoire utiliser =randint()_
+Écrire une fonction _lancer_des_ qui renvoie le résultat d'un lancé de dés avec comme arguments d'entrer le nombre de dés lancer.
+_rappel pour générer de l'aléatoire utiliser =randint()_
+
+
 
 **programme**
-Ecrire une fonction _exposant_ qui prend en argument x et n et qui renvoie le résultat de x exposant n
+Écrire une fonction _exposant_ qui prend en argument x et n et qui renvoie le résultat de x exposant n
 
 **programme**
-Votre boulangerie à grossis, vous désirez écrire un programme Python qui calculera automatiquement le montant de la facture des clients.
+Votre boulangerie a grossi, vous désirez écrire un programme Python qui calculera automatiquement le montant de la facture des clients.
 Tout client qui achète au moins 5 fois le même article se voit octroyer une remise de 5 % (uniquement sur le montant de l'achat de cet article).
-Ecrivez un programme qui contient plusieurs fonction. Ce programme doit demander à l'utilisateurs ça commande et afficher sa facture une fois ça commande terminer.
-Il pourra donc commander différent article et les différentes réductions devrons lui être attribué
+Écrivez un programme qui contient plusieurs fonctions. Ce programme doit demander à l'utilisateur ça commande et afficher sa facture une fois ça commande terminer.
+Il pourra donc commander différents articles et les différentes réductions devront lui être attribuées.
 
 **programme**
 Nous allons coder le programme de pierre-papier-ciseaux
-1. Ecrire une fonction _gagnant_ qui prend deux argument en entrée: correspondant au choix des deux joueurs
-et renvoie 1 si c'est le 1er joueurs qui gagne 2 si c'est le second et 0 en cas d'égaliter.
-2. Ecrire une fonction qui demande au joueur un choix et renvoie victoire/defaite ou de rejouer en fonction du résultat de la fonction _gagnant_
-3. Ecrire le programme qui permet de jouer contre l'ordinateurs
-l'ordinateurs jouera de maniere aléatoire grace à la fonction randint
-4.(facultatif) Il est tout a fait possible d'imaginer une fonction IA qui joue au jeux de maniere non aléatoire mais en fonction de l'ancienne entrée des joueurs
+1. Écrire une fonction _gagnant_ qui prend deux arguments en entrée : correspondant au choix des deux joueurs
+et renvoie 1 si c'est le 1er joueur qui gagne 2 si c'est le second et 0 en cas d'égalité.
+2. Écrire le programme qui permet de jouer contre l'ordinateur
+L'ordinateur jouera de manière aléatoire grâce à la fonction randint
+3. (facultatif) Il est tout à fait possible d'imaginer une fonction IA qui joue au jeu de manière non-aléatoire, mais en fonction de l'ancienne entrée des joueurs.
+
+
+
 
 
 **Chiffrage de césar**
-1. Ecrire une fonction _decale_ qui prend en parametre: letre(str) et shift(int) cette fonction renvoie la lettre décaller de _shift_
+1. Ecrire une fonction _decale_ qui prend en paramètre: lettre(str) et shift(int) cette fonction renvoie la lettre décaler de _shift
 exemple: cryptage("h",1) renvoie "i"
 Aide:
 
@@ -219,11 +223,9 @@ Aide:
 'A'
 ```
 
-2. Ecrire une fonction _crypter_ qui prend en parametre un mot(str) et shift(int) cette fonction renvoie le mot avec toutes ces lettre décaller de _shift_
+2. Ecrire une fonction _crypter_ qui prend en paramètre un mot(str) et shift(int) cette fonction renvoie le mot avec toutes ces lettres décalées de _shift
 
 3. Ecrire un programme qui permet de crypter et décrypter une phrase
-
-
 
 
 ---
