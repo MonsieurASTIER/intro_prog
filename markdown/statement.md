@@ -4,7 +4,7 @@
 ![Minion](../img/stormtroopocat.png)
 
 
-Bienvenu dans le merveilleux monde de la programmation
+Bienvenu dans le merveilleux monde de la programmation!
 
 
 
