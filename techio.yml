@@ -26,7 +26,6 @@ plan:
   statement: markdown/Partie1_les_variables/Exercices_4_fonction.md
 
 
-
 projects:
   example:
     root: /code
