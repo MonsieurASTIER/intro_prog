@@ -81,7 +81,7 @@ def fonctionAvecPlusieurArgument(v1,v2,v3,v4):
   return v1+v2+v3+v4    
 ```
 Un argument de fonction permet d'utiliser des "éléments" du programme extérieurs.
-Le contenu d'une fonction appelé "corps" de la fonction se situe dans un environnement un peu particulier. Celui-ci contient les valeurs des variables définit hors de la fonction. Mais ne peut pas les modifier.
+Le contenu d'une fonction appelé "corps" de la fonction se situe dans un environnement un peu particulier. Celui-ci contient les valeurs des variables définit hors de la fonction, mais ne peut pas les modifier.
 _On verra plus tard que ce n'est pas complétement vrai, mais pour l'instant, je préfère que vous reteniez ceci, la manipulation de vos variables non pas d'impacte en dehors de votre fonction_
 
 On utilise alors le terme de **variable local** et **variable global**
@@ -119,25 +119,8 @@ print(variableLocal)
 _l'exécution du code ci-dessus renverra une erreur : variablelocal n'est pas définie et n'existe pas_
 
 Mais alors comment je fais si je souhaite modifier la valeur de mes variables globales ?
-Pour cela, il existe deux solutions :
+Pour cela, il existe une solutions :
 
-Une qui ne faut pas utiliser !!!!!
-le mot-clé **global**
-Je vous explique le fonctionnement, mais je vous déconseille très fortement de l'utiliser, car c'est généralement synonyme de mauvaise architecture logicielle et un très fort risque d'effets de bord
-
-```python runnable
-valeurGlobal = 10
-def ma_fonction():
-  global valeurGlobal
-  valeurGlobal = 20
-
-print(valeurGlobal)  
-```
-L'utilisation du mot-clé global permet d'indiquer à l'ordinateur qu'on fait référence à la variable originale et non une copie. Dans notre analogie, c'est comme si on prend un objet de l'étagère originale pour la mettre dans l'étagère de notre seconde chambre. (c'est ici que l'analogie perd de son sens, car l'objet en question se retrouve à ce moment et dans la chambre originale et dans la nouvelle chambre, une sorte d'objet quantique.)
-
-Je ne détaillerai pas plus ceci.
-
-La seconde méthode et donc la bonne méthode :
 Le paramètre de sortie !!!
 
 Si je souhaite modifier une variable globale, je peux simplement la réaffecter à la valeur de sortie de mon programme !
