@@ -95,12 +95,12 @@ vous connaissez la routine maintenant.Validons les nouvelles connaissances avec 
     return val1
 
   val1=10
-  ma_fonction(val1)  
+  val1=ma_fonction(val1)  
 ```
 ?[Qu'elle est la valeur de val1 à la fin de l'exécution de ce programme]
 - [] 0
-- [X] 10
-- [] 11
+- [] 10
+- [X] 11
 - [] valeur vide
 
 ---
@@ -125,19 +125,19 @@ vous connaissez la routine maintenant.Validons les nouvelles connaissances avec 
 
 ```python
   def ma_fonction():
-    a=a+1
-    return a
+    c=a+1
+    return c
 
   a=10
   b=ma_fonction()  
 ```
-?[Qu'elle est la valeur de b à la fin de l'exécution de ce programme]
+?[Qu'elle est la valeur de la variable b à la fin de l'exécution de ce programme]
 - [] 0
 - [] 10
 - [X] 11
 - [] valeur vide
 
-?[Qu'elle est la valeur de a à la fin de l'exécution de ce programme]
+?[Qu'elle est la valeur de la variable a, à la fin de l'exécution de ce programme]
 - [] 0
 - [X] 10
 - [] 11
