@@ -32,7 +32,9 @@ b,c = 8,2
 ***
 
 ```python
-a,b,c = 10,8,2
+a =10
+b = 8
+c = 2
 if a>b:
   if a>c:
     print("A")
@@ -52,7 +54,9 @@ else:
 ***
 
 ```python
-a,b,c = 10,8,2
+a =10
+b = 8
+c = 2
 if a < b + c:
   if a > c:
     print("A")
@@ -72,7 +76,9 @@ else:
 ***
 
 ```python
-a,b,c = 10,8,2
+a =10
+b = 8
+c = 2
 if a < b :
   if a > c:
     print("A")
