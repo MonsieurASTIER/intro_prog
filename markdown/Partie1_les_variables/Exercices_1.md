@@ -66,6 +66,7 @@ _Si vous n'avez pas compris cette phrase, relisez la partie sur les types de bas
 **Programme 1:**
 
 Écrire l'expression qui calcule la moyenne de deux nombres A et B
+
 Afficher la moyenne pour la valeur A = 12 et B = 8
 
 
