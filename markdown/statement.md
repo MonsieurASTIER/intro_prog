@@ -53,5 +53,5 @@ Vous pouvez tomber sur un cadre comme ci-dessous avec du code. Il vous suffit d'
 
 
 ```python runnable
-#Ecrire votre code ici
+print("hello world")
 ```
