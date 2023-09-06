@@ -44,18 +44,12 @@ Il existe une différence entre ces deux QCM
 - [x] Il en faut plus pour me démotiver.
 
 Il est possible de réaliser autant de fois que nécessaires un QCM.
-**Attention de ne pas tomber dans la facilité de cocher au hasard et de recommencer,ceci ne fera pas avancer le [schmilblik](https://fr.wikipedia.org/wiki/Schmilblick)**
+**Attention de ne pas tomber dans la facilité de cocher au hasard et de recommencer. Ces QCM ne sont pas noter, ils vous permettent seulement d'auto-évaluer la compréhension du cours. Si vous répondez faux à un QCM et que vous ne comprenez pas pourquoi, demander de l'aide au professeur**
 
 
+## Exécuter du code sur cette page web
 
-## Écrire du code sur cette page web
-
-On peut trouver un cadre, comme ci-dessous, dans lequel il faut taper son code. Une partie du code peut être déjà pré rempli **il ne faut pas modifier l'en-tête**.
-
-Pour résoudre l'exercice, il faudra écrire un programme qui passera les tests lorsque l'on appuie sur Run.
-
-Pour vous entraîner, essayez d'écrire `print("Hello World")` dans le programme suivant puis testez-le en appuyant sur Run.
-
+Vous pouvez tomber sur un cadre comme ci-dessous avec du code. Il vous suffit d'appuyer sur le bouton **run** pour lancer son exécution.
 
 
 ```python runnable
