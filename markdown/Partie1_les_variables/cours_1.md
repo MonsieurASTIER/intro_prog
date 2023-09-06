@@ -131,7 +131,7 @@ y = 3*a + b/5
 
 Dans cet exemple, nous commençons par affecter aux variables a et b les valeurs 7,3 et 12.
 
-La seconde ligne de l'exemple consiste à affecter à une nouvelle variable _y_ le résultat d'une expression qui combine les opérateurs ***** , **+** et **/** avec les opérandes a, b, 3 et 5. Les opérateurs sont les symboles spéciaux utilisés pour représenter des opérations mathématiques simples, telles l'addition ou la multiplication. Les opérandes sont les valeurs combinées à l'aide des opérateurs.
+La seconde ligne de l'exemple consiste à affecter à une nouvelle variable _y_ le résultat d'une expression qui combine les opérateurs * , **+** et **/** avec les opérandes a, b, 3 et 5. Les opérateurs sont les symboles spéciaux utilisés pour représenter des opérations mathématiques simples, telles l'addition ou la multiplication. Les opérandes sont les valeurs combinées à l'aide des opérateurs.
 
 
 Python évalue chaque expression qu'on lui soumet, aussi compliquée soit-elle, et le résultat de cette évaluation est toujours lui-même une valeur. A cette valeur, il attribue automatiquement un type, lequel dépend de ce qu'il y a dans l'expression. Dans l'exemple ci-dessus, y sera du type réel, parce que l'expression évaluée pour déterminer sa valeur contient elle-même au moins un réel.
