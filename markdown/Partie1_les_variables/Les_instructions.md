@@ -1,4 +1,4 @@
-*Avant de commencer cette partie, demander au professeur la fiche d'activité sur l'algèbre de Bool. Elle est à réaliser avant de poursuivre ce cours.*
+**Avant de commencer cette partie, demander au professeur la fiche d'activité sur l'algèbre de Bool. Elle est à réaliser avant de poursuivre ce cours.**
 
 
 Jusqu'à maintenant, nous nous sommes contenté de faire des calculs mathématiques simples, mais nous n'avons pas encore fait d'algorithmie.
