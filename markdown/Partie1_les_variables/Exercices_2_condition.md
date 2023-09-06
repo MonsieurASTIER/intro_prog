@@ -114,11 +114,6 @@ else:
 -[] affiche rien
 
 
-?[10. Que fait le programme ci-dessus]
--[] il affiche le nom de la variable contenant la plus grande valeur
--[] il affiche le nom de la variable contenant la plus petite valeur
--[] il affiche le nom d'une variable aléatoire
--[X] Ce code ne fait rien de spécial
 
 ***
 ***
@@ -227,7 +222,7 @@ else:
 ***
 
 ```python
-if ((a < b) ^ (a > c)) and ( a+2 > b-2):
+if ((a < b) or (a > c)) and ( a+2 > b-2):
   print("B")
 else:
     print("A")
@@ -245,13 +240,14 @@ else:
 # Programme :
 Écrire sur votre IDE les différents programmes :
 
-
 **Programme 1:**
+Écrire un programme qui dit si le nombre saisi au clavier est paire ou impaire
+
+
+**Programme 2:**
 Le programme de la question 12 est mal écrit, certaines conditions sont redondantes, et il ne prend pas en compte tous les cas de figure. (égalité ect).
 Réécrire le programme de la question 12 qui renvoie la plus grande valeur et son nom de variable. En cas d'égalité, afficher une des deux variables égales.
 
-**Programme 2:**
-Écrire un programme qui dit si le nombre saisi au clavier est paire ou impaire
 
 **Programme 3:**
 
