@@ -72,15 +72,20 @@ Afficher la moyenne pour la valeur A = 12 et B = 8
 
 **Programme 2:**
 
-Écrire l'expression qui calcule la réduction d'un produit soldé
+Écrire l'expression qui calcule la réduction d'un produit soldé.
+
 Afficher la valeur de la réduction pour un objet coûtant 50€ et une réduction de 10%
+
 Exemple : un couteau à 80€ soldé à 20% donne une réduction de 16€
 
 **Programme 3:**
 
-À l'aide de l'instruction input(), écrire un programme qui calcule le coût de votre commande de pain
-Sachant que le prix d'une baguette est de 1.20€ et le nombre de baguettes acheté dépendra de votre saisie clavier
+À l'aide de l'instruction input(), écrire un programme qui calcule le coût de votre commande de pain.
+
+Sachant que le prix d'une baguette est de 1.20€ et le nombre de baguettes acheté dépendra de votre saisie clavier.
+
 Le programme devra donc demander à l'utilisateur combien de baguette il souhaite acheter.
+
 _astuce: n'oubliez pas de convertir vos entrée input() en entier_
 
 **Programme 4:**
