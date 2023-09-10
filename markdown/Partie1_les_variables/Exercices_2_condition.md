@@ -245,11 +245,6 @@ else:
 
 
 **Programme 2:**
-Le programme de la question 12 est mal écrit, certaines conditions sont redondantes, et il ne prend pas en compte tous les cas de figure. (égalité ect).
-Réécrire le programme de la question 12 qui renvoie la plus grande valeur et son nom de variable. En cas d'égalité, afficher une des deux variables égales.
-
-
-**Programme 3:**
 
 Écrire un programme qui calcule l'empreinte carbone de votre déplacement jusqu'au lycée.
 Celui-ci doit renvoyer sa valeur en Kg-co2 ainsi que son interprétation.
@@ -264,3 +259,8 @@ print("2. Voiture électrique")
 print("3. pied,vélo,skateboard")
 print("4. Vélo électrique ou trottinette électrique")
 print("5. Transport en commun")
+```
+
+**Programme 3:**
+Le programme de la question 12 est mal écrit, certaines conditions sont redondantes, et il ne prend pas en compte tous les cas de figure. (égalité ect).
+Réécrire le programme de la question 12 qui renvoie la plus grande valeur et son nom de variable. En cas d'égalité, afficher une des deux variables égales.
