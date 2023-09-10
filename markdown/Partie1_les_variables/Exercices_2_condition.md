@@ -247,6 +247,7 @@ else:
 **Programme 2:**
 
 Écrire un programme qui calcule l'empreinte carbone de votre déplacement jusqu'au lycée.
+_https://agirpourlatransition.ademe.fr/particuliers/bureau/deplacements/calculer-emissions-carbone-trajets_
 Celui-ci doit renvoyer sa valeur en Kg-co2 ainsi que son interprétation.
 Sachant que moins de 0.1kg c'est très bien, entre 0.1 et 0.5kg c'est bien, moins de 2kg c'est acceptable plus de 2kg peut mieux faire.
 
