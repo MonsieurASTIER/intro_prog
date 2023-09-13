@@ -128,7 +128,6 @@ print(a)
 Écrire un programme qui affiche les 10 premiers nombres de la suite de fibonnacci (google it)
 
 
-
 **programme 3**
 Un joueur doit trouver un nombre entier choisi au préalable de 1 à 100 par l'ordinateur. A chaque tour, le joueur propose un nombre et l'ordinateur peut répondre de trois façons différentes :
 Gagné !;  Trop petit; Trop grand
@@ -142,16 +141,12 @@ _Pour utiliser cette fonction, vous devez importer sont module (je détaillerai 
 demande à l'utilisateur de saisir un nombre entier qui corrrespond au nombre maximum d'essais autorisés.permette de jouer sans autoriser plus d'essais que le nombre maximum entré.affiche soit la défaite soit la victoire en précisant le nombre d'essais utilisés.
 
 
-**Programme 4**
-Ecrire un programme qui affiche une a une le code Unicode des caractères du mot "bonjour"
-_ord('l')_ renvoie le code unicode du caractere 'l'
-
-**programme 5**
+**programme 4**
 Sur un jeu d'échecs, les cases sont repérées par une lettre (de A jusqu'à H) et par un chiffre (de 1 jusqu'à 8).
 Les cases sont donc A1, A2, A3, ..., H7, H8.
 Proposer un code qui écrit toutes les cases possibles.
 
-**programme 6:**
+**programme 5:**
 1. Écrire un programme qui indique si une année est bissextile. Une année est bissextile si elle est divisible par 4. Cependant, les siècles ne sont pas bissextils sauf
 les multiples de 400.
 2. Compléter le programme pour calculer le nombre de jours du mois m, m étant un entier compris entre 1 et 12.
@@ -161,13 +156,13 @@ De janvier à juillet les mois impaires ont 31 jours, les autres 30.
 D'aout à décembre, c'est l'inverse.
 De pus le mois de février à 29 ou 28 jours selon que l'année est bissextile ou non.
 
-**programmes 7:**
+**programmes 6:**
 
 1. Écrire un programme qui étant donné un nombre entre 2 et 12 affiche toutes les combinaisons possibles permettant d'obtenir ce nombre avec deux dés.
 2. Étendre le programme ci-dessus pour afficher, pour chaque nombre entre 2 et 12, toutes les combinaisons possibles permettant d'obtenir ce nombre avec deux dés.
 3. Modifier le programme pour afficher seulement le nombre de combinaisons possibles pour chaque total, au lieu des combinaisons elles-mêmes
 
-**programme 8**
+**programme 7**
 
 On veut calculer la monnaie à rendre sur un paiement en euros (sans les cent).
 La monnaie est rendue avec des pièces et des billets de 1€ ,2€ 5€ 10€ et 50€
