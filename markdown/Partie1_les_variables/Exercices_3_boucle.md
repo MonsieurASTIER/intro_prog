@@ -162,8 +162,8 @@ De pus le mois de février à 29 ou 28 jours selon que l'année est bissextile o
 1. Écrire un programme qui étant donné un nombre entre 2 et 12 affiche toutes les combinaisons possibles permettant d'obtenir ce nombre avec deux dés.
 exemple: nombre = 10
 renvoie:
-4 6
-5 5
+4 6;
+5 5;
 6 4
 
 2. Étendre le programme ci-dessus pour afficher, pour chaque nombre entre 2 et 12, toutes les combinaisons possibles permettant d'obtenir ce nombre avec deux dés.
