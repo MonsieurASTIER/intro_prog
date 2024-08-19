@@ -114,11 +114,10 @@ print(a)
 
 
 
-
-# Programme :
+# Programme:
 Écrire sur votre IDE les différents programmes :
 
-**Programme 1:**
+**programme 1:**
 
 1. Écrire une boucle bornée (For) qui affiche les nombres pairs entre 2 et 20
 2. Écrire une boucle non bornée (while) qui fasse la même chose
@@ -129,17 +128,17 @@ print(a)
 Écrire un programme qui affiche les 10 premiers nombres de la suite de fibonnacci (google it)
 
 
-**Programme 3**
+**programme 3**
 Un joueur doit trouver un nombre entier choisi au préalable de 1 à 100 par l'ordinateur. A chaque tour, le joueur propose un nombre et l'ordinateur peut répondre de trois façons différentes :
-Gagné !; Trop petit; Trop grand
+Gagné !;  Trop petit; Trop grand
 
 _Pour utiliser de l'aléatoire dans python vous devez utiliser la fonction =randint(0,100) qui renvoie un entier aléatoire entre 0 et 100_
 _Pour utiliser cette fonction, vous devez importer sont module (je détaillerai plus tard). Pour cela rajouter au tout début de votre programme l'instruction_
 >from random import *
 
-1. Écrire un programme permettant de jouer à "Devine le nombre".
-2. On veut complexifier le jeu en imposant un nombre d'essais maximal. Modifier le programme précédent afin de définir un maximum d'essai (exemple 8)
-Le programme doit afficher  défaite ou victoire en précisant le nombre d'essais utilisés.
+1. Ecrire un programme permettant de jouer à "Devine le nombre".   
+2. On veut complexifier le jeu en imposant un nombre d'essais maximal.Modifier le programme précédent afin qu'il...
+demande à l'utilisateur de saisir un nombre entier qui corrrespond au nombre maximum d'essais autorisés.permette de jouer sans autoriser plus d'essais que le nombre maximum entré.affiche soit la défaite soit la victoire en précisant le nombre d'essais utilisés.
 
 
 **programme 4**
@@ -148,13 +147,13 @@ Les cases sont donc A1, A2, A3, ..., H7, H8.
 Proposer un code qui écrit toutes les cases possibles.
 
 **programme 5:**
-1. Écrire un programme qui indique si une année est bissextile. Une année est bissextile si elle est divisible par 4. Cependant, les siècles ne sont pas bissextile sauf
+1. Écrire un programme qui indique si une année est bissextile. Une année est bissextile si elle est divisible par 4. Cependant, les siècles ne sont pas bissextils sauf
 les multiples de 400.
 2. Compléter le programme pour calculer le nombre de jours du mois m, m étant un entier compris entre 1 et 12.
 
-De janvier à juillet, les mois impairs ont 31 jours, les autres 30.
+De janvier à juillet les mois impaires ont 31 jours, les autres 30.
 
-D'août à décembre, c'est l'inverse.
+D'aout à décembre, c'est l'inverse.
 De pus le mois de février à 29 ou 28 jours selon que l'année est bissextile ou non.
 
 **programmes 6:**
