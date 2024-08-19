@@ -1,30 +1,7 @@
 title: Introduction à la programmation
 plan:
-- title: Hello world
-  statement: markdown/statement.md
-- title: chapitre 1 les variables
-  statement: markdown/Partie1_les_variables/cours_1.md
-- title: QCM variable
-  statement: markdown/Partie1_les_variables/QCM_cours1.md
-- title: chapitre 2 Type de base
-  statement: markdown/Partie1_les_variables/cours_2_type_de_base.md
-- title: QCM variable
-  statement: markdown/Partie1_les_variables/QCM_cours2.md
-- title: Exercices
-  statement: markdown/Partie1_les_variables/Exercices_1.md
-- title: instructions conditionnelles
-  statement: markdown/Partie1_les_variables/Les_instructions.md
-- title: Exercices
-  statement: markdown/Partie1_les_variables/Exercices_2_condition.md
-- title: Les boucles
-  statement: markdown/Partie1_les_variables/Les_boucles.md
-- title: Exercices
-  statement: markdown/Partie1_les_variables/Exercices_3_boucle.md
-- title: Fonctions
-  statement: markdown/Partie1_les_variables/Les_fonctions.md
-- title: Exercices
-  statement: markdown/Partie1_les_variables/Exercices_4_fonction.md
-
+- title: close sorry
+  statement: markdown/endOf.md
 
 projects:
   example:
